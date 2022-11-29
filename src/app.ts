@@ -1,5 +1,4 @@
-import createHttpError from "http-errors";
-import express, { Express, Request, Response, NextFunction } from "express";
+import express, { Express } from "express";
 import path from "path";
 import cookieParser from "cookie-parser";
 import logger from "morgan";
@@ -30,9 +29,6 @@ class App {
 
   private setRoutes() {
     this.app.use("/", router);
-    this.app.use((req: Request, res: Response, next: NextFunction) =>
-      next(createHttpError(404))
-    );
   }
 
   start() {
