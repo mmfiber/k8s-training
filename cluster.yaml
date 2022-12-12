@@ -17,6 +17,12 @@ spec:
     - encryptedVolume: true
       instanceGroup: master-ap-northeast-1a
       name: a
+    - encryptedVolume: true
+      instanceGroup: master-ap-northeast-1c
+      name: c
+    - encryptedVolume: true
+      instanceGroup: master-ap-northeast-1d
+      name: d
     memoryRequest: 100Mi
     name: main
   - cpuRequest: 100m
@@ -24,6 +30,12 @@ spec:
     - encryptedVolume: true
       instanceGroup: master-ap-northeast-1a
       name: a
+    - encryptedVolume: true
+      instanceGroup: master-ap-northeast-1c
+      name: c
+    - encryptedVolume: true
+      instanceGroup: master-ap-northeast-1d
+      name: d
     memoryRequest: 100Mi
     name: events
   iam:
@@ -52,6 +64,14 @@ spec:
     name: ap-northeast-1a
     type: Public
     zone: ap-northeast-1a
+  - cidr: 172.20.64.0/19
+    name: ap-northeast-1c
+    type: Public
+    zone: ap-northeast-1c
+  - cidr: 172.20.96.0/19
+    name: ap-northeast-1d
+    type: Public
+    zone: ap-northeast-1d
   topology:
     dns:
       type: Public
@@ -78,6 +98,48 @@ spec:
   role: Master
   subnets:
   - ap-northeast-1a
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  labels:
+    kops.k8s.io/cluster: k8s.cluster.dev.masachoco.xyz
+  name: master-ap-northeast-1c
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20220924
+  instanceMetadata:
+    httpPutResponseHopLimit: 3
+    httpTokens: required
+  machineType: t3.medium
+  maxSize: 1
+  minSize: 1
+  role: Master
+  subnets:
+  - ap-northeast-1c
+
+---
+
+apiVersion: kops.k8s.io/v1alpha2
+kind: InstanceGroup
+metadata:
+  creationTimestamp: null
+  labels:
+    kops.k8s.io/cluster: k8s.cluster.dev.masachoco.xyz
+  name: master-ap-northeast-1d
+spec:
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20220924
+  instanceMetadata:
+    httpPutResponseHopLimit: 3
+    httpTokens: required
+  machineType: t3.medium
+  maxSize: 1
+  minSize: 1
+  role: Master
+  subnets:
+  - ap-northeast-1d
 
 ---
 
