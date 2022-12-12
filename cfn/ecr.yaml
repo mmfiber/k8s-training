@@ -1,0 +1,11 @@
+AWSTemplateFormatVersion: "2010-09-09"
+
+Resources:
+  SampleAppRepository:
+    Type: AWS::ECR::Repository
+    Properties: 
+      RepositoryName: k8s-sample-app
+
+Outputs:
+  Arn:
+    Value: !GetAtt SampleAppRepository.Arn
