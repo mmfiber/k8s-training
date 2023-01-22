@@ -17,12 +17,12 @@ spec:
     - encryptedVolume: true
       instanceGroup: master-ap-northeast-1a
       name: a
-    - encryptedVolume: true
-      instanceGroup: master-ap-northeast-1c
-      name: c
-    - encryptedVolume: true
-      instanceGroup: master-ap-northeast-1d
-      name: d
+    # - encryptedVolume: true
+    #   instanceGroup: master-ap-northeast-1c
+    #   name: c
+    # - encryptedVolume: true
+    #   instanceGroup: master-ap-northeast-1d
+    #   name: d
     memoryRequest: 100Mi
     name: main
   - cpuRequest: 100m
@@ -30,12 +30,12 @@ spec:
     - encryptedVolume: true
       instanceGroup: master-ap-northeast-1a
       name: a
-    - encryptedVolume: true
-      instanceGroup: master-ap-northeast-1c
-      name: c
-    - encryptedVolume: true
-      instanceGroup: master-ap-northeast-1d
-      name: d
+    # - encryptedVolume: true
+    #   instanceGroup: master-ap-northeast-1c
+    #   name: c
+    # - encryptedVolume: true
+    #   instanceGroup: master-ap-northeast-1d
+    #   name: d
     memoryRequest: 100Mi
     name: events
   iam:
@@ -59,6 +59,7 @@ spec:
   sshAccess:
   - 0.0.0.0/0
   - ::/0
+  sshKeyName: kops #ec2 の keypair https://github.com/kubernetes/kops/blob/master/upup/pkg/fi/cloudup/awstasks/sshkey.go#L78
   subnets:
   - cidr: 172.20.32.0/19
     name: ap-northeast-1a
@@ -88,10 +89,11 @@ metadata:
     kops.k8s.io/cluster: k8s.cluster.dev.masachoco.xyz
   name: master-ap-northeast-1a
 spec:
-  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20220924
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20221206
   instanceMetadata:
     httpPutResponseHopLimit: 3
     httpTokens: required
+  # machineType: t2.micro
   machineType: t3.medium
   maxSize: 1
   minSize: 1
@@ -99,47 +101,47 @@ spec:
   subnets:
   - ap-northeast-1a
 
----
+# ---
 
-apiVersion: kops.k8s.io/v1alpha2
-kind: InstanceGroup
-metadata:
-  creationTimestamp: null
-  labels:
-    kops.k8s.io/cluster: k8s.cluster.dev.masachoco.xyz
-  name: master-ap-northeast-1c
-spec:
-  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20220924
-  instanceMetadata:
-    httpPutResponseHopLimit: 3
-    httpTokens: required
-  machineType: t3.medium
-  maxSize: 1
-  minSize: 1
-  role: Master
-  subnets:
-  - ap-northeast-1c
+# apiVersion: kops.k8s.io/v1alpha2
+# kind: InstanceGroup
+# metadata:
+#   creationTimestamp: null
+#   labels:
+#     kops.k8s.io/cluster: k8s.cluster.dev.masachoco.xyz
+#   name: master-ap-northeast-1c
+# spec:
+#   image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20221206
+#   instanceMetadata:
+#     httpPutResponseHopLimit: 3
+#     httpTokens: required
+#   machineType: t3.medium
+#   maxSize: 1
+#   minSize: 1
+#   role: Master
+#   subnets:
+#   - ap-northeast-1c
 
----
+# ---
 
-apiVersion: kops.k8s.io/v1alpha2
-kind: InstanceGroup
-metadata:
-  creationTimestamp: null
-  labels:
-    kops.k8s.io/cluster: k8s.cluster.dev.masachoco.xyz
-  name: master-ap-northeast-1d
-spec:
-  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20220924
-  instanceMetadata:
-    httpPutResponseHopLimit: 3
-    httpTokens: required
-  machineType: t3.medium
-  maxSize: 1
-  minSize: 1
-  role: Master
-  subnets:
-  - ap-northeast-1d
+# apiVersion: kops.k8s.io/v1alpha2
+# kind: InstanceGroup
+# metadata:
+#   creationTimestamp: null
+#   labels:
+#     kops.k8s.io/cluster: k8s.cluster.dev.masachoco.xyz
+#   name: master-ap-northeast-1d
+# spec:
+#   image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20221206
+#   instanceMetadata:
+#     httpPutResponseHopLimit: 3
+#     httpTokens: required
+#   machineType: t3.medium
+#   maxSize: 1
+#   minSize: 1
+#   role: Master
+#   subnets:
+#   - ap-northeast-1d
 
 ---
 
@@ -151,10 +153,11 @@ metadata:
     kops.k8s.io/cluster: k8s.cluster.dev.masachoco.xyz
   name: nodes-ap-northeast-1a
 spec:
-  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20220924
+  image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20221206
   instanceMetadata:
     httpPutResponseHopLimit: 1
     httpTokens: required
+  # machineType: t2.micro
   machineType: t3.medium
   maxSize: 1
   minSize: 1
