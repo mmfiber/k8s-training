@@ -1,4 +1,4 @@
-#bin/bash
+#!/bin/bash
 
 export AWS_PROFILE=kops
 
