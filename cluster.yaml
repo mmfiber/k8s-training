@@ -8,6 +8,8 @@ spec:
     dns: {}
   authorization:
     rbac: {}
+  certManager:
+    enabled: true
   channel: stable
   cloudProvider: aws
   configBase: s3://k8s-cluster-dev-masachoco-xyz-state-store/k8s.cluster.dev.masachoco.xyz
@@ -49,6 +51,9 @@ spec:
   - ::/0
   kubernetesVersion: 1.25.3
   masterPublicName: api.k8s.cluster.dev.masachoco.xyz
+  metricsServer:
+    enabled: true
+    # insecure: false
   networkCIDR: 172.20.0.0/16
   networking:
     kubenet: {}

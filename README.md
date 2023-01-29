@@ -141,6 +141,20 @@ classic load balance の scheme が internal になっている
 https://docs.aws.amazon.com/elasticloadbalancing/latest/classic/elb-internal-load-balancers.html?icmpid=docs_elb_console
 -> annotation で internal にしてるだけだった、、、
 
+hpa
+  * [自動的に設定されている](https://kops.sigs.k8s.io/horizontal_pod_autoscaling/)
+    cluster の .spec に以下を設定
+    ```yaml
+    spec:
+      certManager:
+        enabled: true
+      metricsServer:
+        enabled: true
+        insecure: false
+    ```
+    [cert-manager の有効化が必要](https://github.com/kubernetes/kops/blob/master/docs/addons.md#metrics-server)
+  * [metrics](https://kops.sigs.k8s.io/horizontal_pod_autoscaling/#support-for-multiple-metrics)
+
 cluster へのアクセスを load balance internal にしてみる
 keel やってる。そもそもなんで必要かから考える。
 
