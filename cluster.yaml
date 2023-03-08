@@ -4,8 +4,26 @@ metadata:
   creationTimestamp: null
   name: k8s.cluster.dev.masachoco.xyz
 spec:
+  additionalPolicies:
+    node: |
+      [
+        {
+          "Effect": "Allow",
+          "Action": [
+            "autoscaling:DescribeAutoScalingGroups",
+            "autoscaling:DescribeAutoScalingInstances",
+            "autoscaling:DescribeLaunchConfigurations",
+            "autoscaling:DescribeScalingActivities",
+            "autoscaling:SetDesiredCapacity",
+            "autoscaling:TerminateInstanceInAutoScalingGroup",
+            "autoscaling:DescribeTags"
+          ],
+          "Resource": ["*"]
+        }
+      ]
   api:
-    dns: {}
+    loadBalancer:
+      type: Public
   authorization:
     rbac: {}
   certManager:
@@ -64,7 +82,9 @@ spec:
   sshAccess:
   - 0.0.0.0/0
   - ::/0
-  sshKeyName: kops #ec2 の keypair https://github.com/kubernetes/kops/blob/master/upup/pkg/fi/cloudup/awstasks/sshkey.go#L78
+  # ec2 の keypair https://github.com/kubernetes/kops/blob/master/upup/pkg/fi/cloudup/awstasks/sshkey.go#L78
+  # ユーザーは ubuntu
+  sshKeyName: kops 
   subnets:
   - cidr: 172.20.32.0/19
     name: ap-northeast-1a
@@ -120,7 +140,7 @@ spec:
 #   instanceMetadata:
 #     httpPutResponseHopLimit: 3
 #     httpTokens: required
-#   machineType: t3.medium
+#   machineType: t3.micro
 #   maxSize: 1
 #   minSize: 1
 #   role: Master
@@ -141,7 +161,7 @@ spec:
 #   instanceMetadata:
 #     httpPutResponseHopLimit: 3
 #     httpTokens: required
-#   machineType: t3.medium
+#   machineType: t3.micro
 #   maxSize: 1
 #   minSize: 1
 #   role: Master
@@ -160,12 +180,15 @@ metadata:
 spec:
   image: 099720109477/ubuntu/images/hvm-ssd/ubuntu-focal-20.04-amd64-server-20221206
   instanceMetadata:
-    httpPutResponseHopLimit: 1
+    httpPutResponseHopLimit: 3
     httpTokens: required
   # machineType: t2.micro
-  machineType: t3.medium
-  maxSize: 1
+  machineType: t3.small
+  maxSize: 2
   minSize: 1
+  cloudLabels:
+    k8s.io/cluster-autoscaler/enabled: enabled
+    k8s.io/cluster-autoscaler/k8s.cluster.dev.masachoco.xyz: owned
   role: Node
   subnets:
   - ap-northeast-1a

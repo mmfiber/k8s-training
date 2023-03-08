@@ -160,3 +160,16 @@ keel やってる。そもそもなんで必要かから考える。
 
 tls サポート
 https://kubernetes.io/ja/docs/concepts/services-networking/service/#publishing-services-service-types
+
+cluster-autoscaler
+[ここ](https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/aws/README.md)見て実装
+pod の設定　＆ IAM の権限なさそう、
+```
+F0305 08:06:22.935477       1 aws_cloud_provider.go:360] Failed to get AWS Region: EC2MetadataRequestError: failed to get EC2 instance identity document
+caused by: EC2MetadataError: failed to make EC2Metadata request
+	status code: 401, request id: 
+```
+-> keel を参考に region の env を入れたら解決。そもそも、リクエストしなくて良くなっため？
+[IMDSv2 の hop limit の設定が必要](https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html)だった
+https://dev.classmethod.jp/articles/ec2-imdsv2-release/
+[minimal](https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/aws/README.md#common-notes-and-gotchas) + "autoscaling:DescribeTags" を追加

@@ -1,0 +1,2182 @@
+I0305 09:44:54.820945       1 flags.go:52] FLAG: --add-dir-header="false"
+I0305 09:44:54.821287       1 flags.go:52] FLAG: --address=":8085"
+I0305 09:44:54.821363       1 flags.go:52] FLAG: --alsologtostderr="false"
+I0305 09:44:54.821427       1 flags.go:52] FLAG: --aws-use-static-instance-list="false"
+I0305 09:44:54.821497       1 flags.go:52] FLAG: --balance-similar-node-groups="false"
+I0305 09:44:54.821550       1 flags.go:52] FLAG: --balancing-ignore-label="[]"
+I0305 09:44:54.821601       1 flags.go:52] FLAG: --cloud-config=""
+I0305 09:44:54.821651       1 flags.go:52] FLAG: --cloud-provider="aws"
+I0305 09:44:54.821704       1 flags.go:52] FLAG: --cloud-provider-gce-l7lb-src-cidrs="130.211.0.0/22,35.191.0.0/16"
+I0305 09:44:54.821758       1 flags.go:52] FLAG: --cloud-provider-gce-lb-src-cidrs="130.211.0.0/22,209.85.152.0/22,209.85.204.0/22,35.191.0.0/16"
+I0305 09:44:54.821830       1 flags.go:52] FLAG: --cluster-name=""
+I0305 09:44:54.821876       1 flags.go:52] FLAG: --clusterapi-cloud-config-authoritative="false"
+I0305 09:44:54.821931       1 flags.go:52] FLAG: --cordon-node-before-terminating="false"
+I0305 09:44:54.822006       1 flags.go:52] FLAG: --cores-total="0:320000"
+I0305 09:44:54.822050       1 flags.go:52] FLAG: --daemonset-eviction-for-empty-nodes="false"
+I0305 09:44:54.822111       1 flags.go:52] FLAG: --daemonset-eviction-for-occupied-nodes="true"
+I0305 09:44:54.822123       1 flags.go:52] FLAG: --emit-per-nodegroup-metrics="false"
+I0305 09:44:54.822128       1 flags.go:52] FLAG: --estimator="binpacking"
+I0305 09:44:54.822132       1 flags.go:52] FLAG: --expander="least-waste"
+I0305 09:44:54.822137       1 flags.go:52] FLAG: --expendable-pods-priority-cutoff="-10"
+I0305 09:44:54.822195       1 flags.go:52] FLAG: --gce-concurrent-refreshes="1"
+I0305 09:44:54.822206       1 flags.go:52] FLAG: --gpu-total="[]"
+I0305 09:44:54.822211       1 flags.go:52] FLAG: --ignore-daemonsets-utilization="false"
+I0305 09:44:54.822275       1 flags.go:52] FLAG: --ignore-mirror-pods-utilization="false"
+I0305 09:44:54.822286       1 flags.go:52] FLAG: --ignore-taint="[]"
+I0305 09:44:54.822291       1 flags.go:52] FLAG: --kubeconfig=""
+I0305 09:44:54.822340       1 flags.go:52] FLAG: --kubernetes=""
+I0305 09:44:54.822351       1 flags.go:52] FLAG: --leader-elect="true"
+I0305 09:44:54.822359       1 flags.go:52] FLAG: --leader-elect-lease-duration="15s"
+I0305 09:44:54.822423       1 flags.go:52] FLAG: --leader-elect-renew-deadline="10s"
+I0305 09:44:54.822428       1 flags.go:52] FLAG: --leader-elect-resource-lock="leases"
+I0305 09:44:54.822434       1 flags.go:52] FLAG: --leader-elect-resource-name="cluster-autoscaler"
+I0305 09:44:54.822482       1 flags.go:52] FLAG: --leader-elect-resource-namespace=""
+I0305 09:44:54.822487       1 flags.go:52] FLAG: --leader-elect-retry-period="2s"
+I0305 09:44:54.822547       1 flags.go:52] FLAG: --log-backtrace-at=":0"
+I0305 09:44:54.822560       1 flags.go:52] FLAG: --log-dir=""
+I0305 09:44:54.822565       1 flags.go:52] FLAG: --log-file=""
+I0305 09:44:54.822570       1 flags.go:52] FLAG: --log-file-max-size="1800"
+I0305 09:44:54.822642       1 flags.go:52] FLAG: --logtostderr="true"
+I0305 09:44:54.822648       1 flags.go:52] FLAG: --max-autoprovisioned-node-group-count="15"
+I0305 09:44:54.822695       1 flags.go:52] FLAG: --max-bulk-soft-taint-count="10"
+I0305 09:44:54.822703       1 flags.go:52] FLAG: --max-bulk-soft-taint-time="3s"
+I0305 09:44:54.822770       1 flags.go:52] FLAG: --max-empty-bulk-delete="10"
+I0305 09:44:54.822775       1 flags.go:52] FLAG: --max-failing-time="15m0s"
+I0305 09:44:54.822780       1 flags.go:52] FLAG: --max-graceful-termination-sec="600"
+I0305 09:44:54.822834       1 flags.go:52] FLAG: --max-inactivity="10m0s"
+I0305 09:44:54.822839       1 flags.go:52] FLAG: --max-node-provision-time="15m0s"
+I0305 09:44:54.822844       1 flags.go:52] FLAG: --max-nodes-total="0"
+I0305 09:44:54.822889       1 flags.go:52] FLAG: --max-total-unready-percentage="45"
+I0305 09:44:54.822900       1 flags.go:52] FLAG: --memory-total="0:6400000"
+I0305 09:44:54.822905       1 flags.go:52] FLAG: --min-replica-count="0"
+I0305 09:44:54.822909       1 flags.go:52] FLAG: --namespace="kube-system"
+I0305 09:44:54.822962       1 flags.go:52] FLAG: --new-pod-scale-up-delay="0s"
+I0305 09:44:54.822980       1 flags.go:52] FLAG: --node-autoprovisioning-enabled="false"
+I0305 09:44:54.823020       1 flags.go:52] FLAG: --node-deletion-delay-timeout="2m0s"
+I0305 09:44:54.823030       1 flags.go:52] FLAG: --node-group-auto-discovery="[asg:tag=k8s.io/cluster-autoscaler/enabled,k8s.io/role/node,k8s.io/cluster-autoscaler/k8s.cluster.dev.masachoco.xyz]"
+I0305 09:44:54.823089       1 flags.go:52] FLAG: --nodes="[]"
+I0305 09:44:54.823099       1 flags.go:52] FLAG: --ok-total-unready-count="3"
+I0305 09:44:54.823103       1 flags.go:52] FLAG: --one-output="false"
+I0305 09:44:54.823107       1 flags.go:52] FLAG: --profiling="false"
+I0305 09:44:54.823112       1 flags.go:52] FLAG: --regional="false"
+I0305 09:44:54.823162       1 flags.go:52] FLAG: --scale-down-candidates-pool-min-count="50"
+I0305 09:44:54.823166       1 flags.go:52] FLAG: --scale-down-candidates-pool-ratio="0.1"
+I0305 09:44:54.823172       1 flags.go:52] FLAG: --scale-down-delay-after-add="10m0s"
+I0305 09:44:54.823226       1 flags.go:52] FLAG: --scale-down-delay-after-delete="0s"
+I0305 09:44:54.823230       1 flags.go:52] FLAG: --scale-down-delay-after-failure="3m0s"
+I0305 09:44:54.823269       1 flags.go:52] FLAG: --scale-down-enabled="true"
+I0305 09:44:54.823278       1 flags.go:52] FLAG: --scale-down-gpu-utilization-threshold="0.5"
+I0305 09:44:54.823284       1 flags.go:52] FLAG: --scale-down-non-empty-candidates-count="30"
+I0305 09:44:54.823288       1 flags.go:52] FLAG: --scale-down-unneeded-time="10m0s"
+I0305 09:44:54.823293       1 flags.go:52] FLAG: --scale-down-unready-time="20m0s"
+I0305 09:44:54.823298       1 flags.go:52] FLAG: --scale-down-utilization-threshold="0.5"
+I0305 09:44:54.823360       1 flags.go:52] FLAG: --scale-up-from-zero="true"
+I0305 09:44:54.823369       1 flags.go:52] FLAG: --scan-interval="10s"
+I0305 09:44:54.823374       1 flags.go:52] FLAG: --skip-headers="false"
+I0305 09:44:54.824209       1 flags.go:52] FLAG: --skip-log-headers="false"
+I0305 09:44:54.824220       1 flags.go:52] FLAG: --skip-nodes-with-local-storage="false"
+I0305 09:44:54.824225       1 flags.go:52] FLAG: --skip-nodes-with-system-pods="true"
+I0305 09:44:54.824229       1 flags.go:52] FLAG: --status-config-map-name="cluster-autoscaler-status"
+I0305 09:44:54.824234       1 flags.go:52] FLAG: --stderrthreshold="0"
+I0305 09:44:54.824238       1 flags.go:52] FLAG: --unremovable-node-recheck-timeout="5m0s"
+I0305 09:44:54.824243       1 flags.go:52] FLAG: --user-agent="cluster-autoscaler"
+I0305 09:44:54.824248       1 flags.go:52] FLAG: --v="4"
+I0305 09:44:54.824341       1 flags.go:52] FLAG: --vmodule=""
+I0305 09:44:54.824346       1 flags.go:52] FLAG: --write-status-configmap="true"
+I0305 09:44:54.824361       1 main.go:397] Cluster Autoscaler 1.22.2
+I0305 09:44:54.927671       1 leaderelection.go:248] attempting to acquire leader lease kube-system/cluster-autoscaler...
+I0305 09:44:55.016101       1 leaderelection.go:258] successfully acquired lease kube-system/cluster-autoscaler
+I0305 09:44:55.018785       1 event_sink_logging_wrapper.go:48] Event(v1.ObjectReference{Kind:"Lease", Namespace:"kube-system", Name:"cluster-autoscaler", UID:"a909ec08-75f3-4d24-9210-66945576d937", APIVersion:"coordination.k8s.io/v1", ResourceVersion:"3968", FieldPath:""}): type: 'Normal' reason: 'LeaderElection' cluster-autoscaler-5c894676f6-qjzll became leader
+I0305 09:44:55.116941       1 reflector.go:219] Starting reflector *v1beta1.PodDisruptionBudget (1h0m0s) from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:309
+I0305 09:44:55.117166       1 reflector.go:255] Listing and watching *v1beta1.PodDisruptionBudget from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:309
+I0305 09:44:55.117257       1 reflector.go:219] Starting reflector *v1.Node (1h0m0s) from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:246
+I0305 09:44:55.117269       1 reflector.go:255] Listing and watching *v1.Node from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:246
+I0305 09:44:55.117496       1 reflector.go:219] Starting reflector *v1.Node (1h0m0s) from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:246
+I0305 09:44:55.117599       1 reflector.go:255] Listing and watching *v1.Node from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:246
+I0305 09:44:55.117171       1 reflector.go:219] Starting reflector *v1.ReplicationController (1h0m0s) from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:329
+I0305 09:44:55.117914       1 reflector.go:255] Listing and watching *v1.ReplicationController from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:329
+I0305 09:44:55.117130       1 reflector.go:219] Starting reflector *v1.DaemonSet (1h0m0s) from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:320
+I0305 09:44:55.118149       1 reflector.go:255] Listing and watching *v1.DaemonSet from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:320
+I0305 09:44:55.117183       1 reflector.go:219] Starting reflector *v1.Job (1h0m0s) from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:338
+I0305 09:44:55.118257       1 reflector.go:255] Listing and watching *v1.Job from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:338
+I0305 09:44:55.117196       1 reflector.go:219] Starting reflector *v1.ReplicaSet (1h0m0s) from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:347
+I0305 09:44:55.118485       1 reflector.go:255] Listing and watching *v1.ReplicaSet from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:347
+I0305 09:44:55.117207       1 reflector.go:219] Starting reflector *v1.StatefulSet (1h0m0s) from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:356
+I0305 09:44:55.118611       1 reflector.go:255] Listing and watching *v1.StatefulSet from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:356
+I0305 09:44:55.117220       1 reflector.go:219] Starting reflector *v1.Pod (1h0m0s) from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:212
+I0305 09:44:55.118764       1 reflector.go:255] Listing and watching *v1.Pod from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:212
+I0305 09:44:55.117245       1 reflector.go:219] Starting reflector *v1.Pod (1h0m0s) from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:188
+I0305 09:44:55.118981       1 reflector.go:255] Listing and watching *v1.Pod from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:188
+E0305 09:44:55.319605       1 reflector.go:138] k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:309: Failed to watch *v1beta1.PodDisruptionBudget: failed to list *v1beta1.PodDisruptionBudget: the server could not find the requested resource
+I0305 09:44:55.320658       1 cloud_provider_builder.go:29] Building aws cloud provider.
+I0305 09:44:55.320715       1 aws_util.go:83] fetching https://pricing.us-east-1.amazonaws.com/offers/v1.0/aws/AmazonEC2/current/ap-northeast-1/index.json
+I0305 09:44:55.617087       1 reflector.go:219] Starting reflector *v1.StorageClass (0s) from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.617333       1 reflector.go:255] Listing and watching *v1.StorageClass from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.617832       1 reflector.go:219] Starting reflector *v1.CSIDriver (0s) from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.617948       1 reflector.go:255] Listing and watching *v1.CSIDriver from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.618357       1 reflector.go:219] Starting reflector *v1.Service (0s) from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.618484       1 reflector.go:255] Listing and watching *v1.Service from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.619117       1 reflector.go:219] Starting reflector *v1.ReplicaSet (0s) from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.619235       1 reflector.go:255] Listing and watching *v1.ReplicaSet from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.619639       1 reflector.go:219] Starting reflector *v1.StatefulSet (0s) from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.714354       1 reflector.go:255] Listing and watching *v1.StatefulSet from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.714969       1 reflector.go:219] Starting reflector *v1.Node (0s) from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.715132       1 reflector.go:255] Listing and watching *v1.Node from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.715548       1 reflector.go:219] Starting reflector *v1.ReplicationController (0s) from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.715650       1 reflector.go:255] Listing and watching *v1.ReplicationController from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.816148       1 reflector.go:219] Starting reflector *v1.Pod (0s) from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.816376       1 reflector.go:255] Listing and watching *v1.Pod from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.817033       1 reflector.go:219] Starting reflector *v1.CSINode (0s) from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:55.914308       1 reflector.go:255] Listing and watching *v1.CSINode from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:56.314877       1 reflector.go:219] Starting reflector *v1.PersistentVolume (0s) from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:56.314903       1 reflector.go:255] Listing and watching *v1.PersistentVolume from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:56.315385       1 reflector.go:219] Starting reflector *v1.Namespace (0s) from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:56.315395       1 reflector.go:255] Listing and watching *v1.Namespace from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:56.315746       1 reflector.go:219] Starting reflector *v1.PersistentVolumeClaim (0s) from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:56.315753       1 reflector.go:255] Listing and watching *v1.PersistentVolumeClaim from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:56.316169       1 reflector.go:219] Starting reflector *v1beta1.CSIStorageCapacity (0s) from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:56.316180       1 reflector.go:255] Listing and watching *v1beta1.CSIStorageCapacity from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:56.316539       1 reflector.go:219] Starting reflector *v1.PodDisruptionBudget (0s) from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:56.316547       1 reflector.go:255] Listing and watching *v1.PodDisruptionBudget from k8s.io/client-go/informers/factory.go:134
+I0305 09:44:56.516315       1 reflector.go:255] Listing and watching *v1beta1.PodDisruptionBudget from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:309
+W0305 09:44:56.519697       1 warnings.go:70] storage.k8s.io/v1beta1 CSIStorageCapacity is deprecated in v1.24+, unavailable in v1.27+; use storage.k8s.io/v1 CSIStorageCapacity
+E0305 09:44:56.914794       1 reflector.go:138] k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:309: Failed to watch *v1beta1.PodDisruptionBudget: failed to list *v1beta1.PodDisruptionBudget: the server could not find the requested resource
+W0305 09:44:57.014451       1 warnings.go:70] storage.k8s.io/v1beta1 CSIStorageCapacity is deprecated in v1.24+, unavailable in v1.27+; use storage.k8s.io/v1 CSIStorageCapacity
+I0305 09:44:59.022539       1 reflector.go:255] Listing and watching *v1beta1.PodDisruptionBudget from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:309
+E0305 09:44:59.215752       1 reflector.go:138] k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:309: Failed to watch *v1beta1.PodDisruptionBudget: failed to list *v1beta1.PodDisruptionBudget: the server could not find the requested resource
+I0305 09:45:04.824436       1 reflector.go:255] Listing and watching *v1beta1.PodDisruptionBudget from k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:309
+E0305 09:45:04.827201       1 reflector.go:138] k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:309: Failed to watch *v1beta1.PodDisruptionBudget: failed to list *v1beta1.PodDisruptionBudget: the server could not find the requested resource
+I0305 09:45:12.022139       1 aws_cloud_provider.go:374] Using static instance type u-24tb1
+I0305 09:45:12.022167       1 aws_cloud_provider.go:374] Using static instance type h1.2xlarge
+I0305 09:45:12.022174       1 aws_cloud_provider.go:374] Using static instance type x2gd.metal
+I0305 09:45:12.022180       1 aws_cloud_provider.go:374] Using static instance type x2gd.2xlarge
+I0305 09:45:12.022188       1 aws_cloud_provider.go:374] Using static instance type x2gd.4xlarge
+I0305 09:45:12.022195       1 aws_cloud_provider.go:374] Using static instance type h1.8xlarge
+I0305 09:45:12.022202       1 aws_cloud_provider.go:374] Using static instance type c5ad.xlarge
+I0305 09:45:12.022206       1 aws_cloud_provider.go:374] Using static instance type d3en.12xlarge
+I0305 09:45:12.022215       1 aws_cloud_provider.go:374] Using static instance type c5ad.2xlarge
+I0305 09:45:12.022220       1 aws_cloud_provider.go:374] Using static instance type f1.4xlarge
+I0305 09:45:12.022230       1 aws_cloud_provider.go:374] Using static instance type x2gd.xlarge
+I0305 09:45:12.022240       1 aws_cloud_provider.go:374] Using static instance type h1
+I0305 09:45:12.022248       1 aws_cloud_provider.go:374] Using static instance type x2gd.12xlarge
+I0305 09:45:12.022265       1 aws_cloud_provider.go:374] Using static instance type f1.2xlarge
+I0305 09:45:12.022336       1 aws_cloud_provider.go:374] Using static instance type d3en.8xlarge
+I0305 09:45:12.022341       1 aws_cloud_provider.go:374] Using static instance type mac2.metal
+I0305 09:45:12.022359       1 aws_cloud_provider.go:374] Using static instance type dl1.24xlarge
+I0305 09:45:12.022371       1 aws_cloud_provider.go:374] Using static instance type u-18tb1
+I0305 09:45:12.022381       1 aws_cloud_provider.go:374] Using static instance type u-18tb1.metal
+I0305 09:45:12.022389       1 aws_cloud_provider.go:374] Using static instance type c5ad.12xlarge
+I0305 09:45:12.022394       1 aws_cloud_provider.go:374] Using static instance type c5ad.24xlarge
+I0305 09:45:12.022401       1 aws_cloud_provider.go:374] Using static instance type c5ad.16xlarge
+I0305 09:45:12.022416       1 aws_cloud_provider.go:374] Using static instance type u-9tb1.metal
+I0305 09:45:12.022426       1 aws_cloud_provider.go:374] Using static instance type x2gd.medium
+I0305 09:45:12.022465       1 aws_cloud_provider.go:374] Using static instance type dl1
+I0305 09:45:12.022476       1 aws_cloud_provider.go:374] Using static instance type d3en.2xlarge
+I0305 09:45:12.022487       1 aws_cloud_provider.go:374] Using static instance type c5ad.4xlarge
+I0305 09:45:12.022503       1 aws_cloud_provider.go:374] Using static instance type d3en.6xlarge
+I0305 09:45:12.022550       1 aws_cloud_provider.go:374] Using static instance type u-24tb1.metal
+I0305 09:45:12.022559       1 aws_cloud_provider.go:374] Using static instance type c5ad.large
+I0305 09:45:12.022566       1 aws_cloud_provider.go:374] Using static instance type h1.4xlarge
+I0305 09:45:12.022571       1 aws_cloud_provider.go:374] Using static instance type d3en.4xlarge
+I0305 09:45:12.022576       1 aws_cloud_provider.go:374] Using static instance type f1
+I0305 09:45:12.022586       1 aws_cloud_provider.go:374] Using static instance type x2gd.large
+I0305 09:45:12.022631       1 aws_cloud_provider.go:374] Using static instance type c6gn.metal
+I0305 09:45:12.022641       1 aws_cloud_provider.go:374] Using static instance type mac2
+I0305 09:45:12.022663       1 aws_cloud_provider.go:374] Using static instance type x2gd.16xlarge
+I0305 09:45:12.022693       1 aws_cloud_provider.go:374] Using static instance type u-6tb1.metal
+I0305 09:45:12.022727       1 aws_cloud_provider.go:374] Using static instance type u-12tb1.metal
+I0305 09:45:12.022733       1 aws_cloud_provider.go:374] Using static instance type x2gd
+I0305 09:45:12.022739       1 aws_cloud_provider.go:374] Using static instance type c5ad.8xlarge
+I0305 09:45:12.022754       1 aws_cloud_provider.go:374] Using static instance type f1.16xlarge
+I0305 09:45:12.022764       1 aws_cloud_provider.go:374] Using static instance type d3en.xlarge
+I0305 09:45:12.022772       1 aws_cloud_provider.go:374] Using static instance type h1.16xlarge
+I0305 09:45:12.022782       1 aws_cloud_provider.go:374] Using static instance type x2gd.8xlarge
+I0305 09:45:12.022807       1 aws_cloud_provider.go:374] Using static instance type i3p.16xlarge
+I0305 09:45:12.022845       1 aws_cloud_provider.go:384] Successfully load 678 EC2 Instance Types [r4.2xlarge r5d.16xlarge r5n.16xlarge m6in.16xlarge a1.xlarge m5a.16xlarge c6g.large t2.2xlarge m3.large r5.metal c6gd.xlarge m6g.medium c1.xlarge r5n.2xlarge a1.metal x2gd.8xlarge c5n.metal r6idn.8xlarge t4g.nano m6i.2xlarge g4dn.16xlarge r5b.large r6g.2xlarge r5.2xlarge z1d.metal c6id.32xlarge r5ad.xlarge c6in.large x2iedn.24xlarge t2.micro vt1.6xlarge r4.4xlarge m5d.metal p3.2xlarge r5n.metal m4.2xlarge r6idn.32xlarge c5n.4xlarge vt1.3xlarge i4i f1.2xlarge r5a.16xlarge m5a.4xlarge c6a.large x2gd x1.32xlarge c6a.12xlarge c5a.12xlarge h1 c6in.4xlarge i4i.32xlarge x2idn.16xlarge c5.metal x1e.8xlarge m6id x2iedn.2xlarge c6a.2xlarge r6idn.16xlarge z1d.3xlarge u-6tb1.112xlarge m6i.32xlarge m5d.24xlarge c6id.2xlarge i2.xlarge m6a.32xlarge mac2 x2iedn m6in c5.24xlarge x2iedn.16xlarge m5d.xlarge c6gd.large im4gn.4xlarge x2iezn z1d.2xlarge c5a.16xlarge c3.2xlarge x1 m5a.2xlarge x2iezn.8xlarge m6idn.24xlarge c6g.4xlarge z1d.xlarge r6id.12xlarge c6a.32xlarge x1e.4xlarge c6gd.12xlarge r5n.4xlarge r5.large m5d.4xlarge m2.4xlarge t3a.nano g5 r5a.24xlarge m5n.4xlarge is4gen.large m6a.4xlarge r6gd.12xlarge m6idn.16xlarge i3en.metal r5.4xlarge m6idn.12xlarge r5d.large m3.2xlarge t3 r5a.xlarge c6id.large r5.24xlarge c6g.12xlarge g4ad d3en.6xlarge m5ad.xlarge m5dn.2xlarge c6gn.8xlarge c7g.medium m5 i4i.2xlarge m4.4xlarge m6in.8xlarge m6in.2xlarge r6g.metal c4.large r6gd.2xlarge m6gd.metal c6i is4gen.medium m5a.12xlarge m5zn m6gd c5.4xlarge m5ad.24xlarge m5d.16xlarge r6id.2xlarge a1.2xlarge i2 c6id.xlarge r5.16xlarge m6idn.large g5g c3 x2gd.4xlarge r5dn.4xlarge inf1.6xlarge c5a.2xlarge c6gn.medium vt1 t3a.medium r6id.32xlarge r5b.metal u-18tb1.metal x2iezn.4xlarge m5n.8xlarge t2.xlarge c5ad.2xlarge c6in.16xlarge x2iedn.xlarge r5a.large a1.large r5dn x2gd.metal r5dn.24xlarge c6gd.4xlarge c6a g5.24xlarge r6in.12xlarge d2 r5 r6i.2xlarge c6id.8xlarge m6idn.2xlarge d3.xlarge m3.xlarge x2gd.12xlarge u-6tb1 i3.xlarge m6idn.32xlarge c5d.metal m5n.xlarge r3.8xlarge p3dn.24xlarge c6i.32xlarge m6id.8xlarge r6g.xlarge c5.9xlarge g4ad.8xlarge g2 r6id.24xlarge c5d.2xlarge x2iezn.metal d2.4xlarge r6idn.large r6in.16xlarge c6g.metal m6id.4xlarge g4dn.8xlarge r6i.16xlarge is4gen.2xlarge is4gen.4xlarge r5b.4xlarge d2.xlarge r5d.metal c5a.large r5a.8xlarge u-9tb1.metal x1e.xlarge x1e x2gd.2xlarge c3.large i3en.3xlarge c6g m6a.16xlarge t2.large c6i.2xlarge c6gn.metal m6a.8xlarge t3.xlarge p2.xlarge c6in.32xlarge c5.large r6g.medium m5zn.6xlarge m6gd.large u-3tb1.56xlarge m6a.48xlarge x2iedn.8xlarge r6idn.xlarge g5.16xlarge r5dn.2xlarge r6g.large m6i c6g.medium m3.medium g4dn.metal c7g.large i3en.2xlarge f1.4xlarge r5ad.2xlarge m5.large m6g.16xlarge g3.16xlarge r6gd.16xlarge im4gn.16xlarge m6in.large c5.2xlarge t4g.2xlarge t3a.xlarge r5ad.large m6a c7g.2xlarge x1e.32xlarge c6gn.16xlarge c5d.12xlarge r5n.24xlarge m5n.12xlarge c7g.16xlarge r6gd.medium m6idn.4xlarge g4ad.16xlarge c7g.metal m5d c5ad.16xlarge r6idn.2xlarge c6id.metal m6g.2xlarge r5d.24xlarge r5b c6gd.16xlarge g5g.16xlarge inf1 c5d m5.xlarge g4dn.12xlarge c4.4xlarge c6i.large m6gd.4xlarge g5.48xlarge c5a.4xlarge r6id u-18tb1 r5a.2xlarge m5dn.8xlarge i3en m6g f1.16xlarge d3en.4xlarge c5n.xlarge m6g.12xlarge c6gn.4xlarge is4gen.8xlarge m1.medium d3en.2xlarge r5dn.metal r6i x2idn.24xlarge r5n z1d.large c6in.24xlarge t2.medium c6id.4xlarge t3.small m6g.4xlarge g5g.xlarge mac1.metal t3a.large c3.xlarge m5.16xlarge x2iezn.6xlarge m6in.xlarge t4g.xlarge m6in.24xlarge c6i.metal m6idn.8xlarge r3.2xlarge hs1.8xlarge r6in m6idn.xlarge r5dn.16xlarge i4i.xlarge c6g.2xlarge c6in.8xlarge m6i.24xlarge m6id.xlarge m6i.8xlarge m5d.large m6g.large r3.xlarge c6id.12xlarge c5d.9xlarge m1.large m5d.2xlarge r5dn.large p4d m5ad.12xlarge c5.12xlarge t3.micro cr1.8xlarge i2.large r3 g5g.metal r5d.4xlarge x2iezn.2xlarge i4i.16xlarge r5ad.4xlarge c6g.16xlarge m4.large m5dn.24xlarge x1e.16xlarge r6id.4xlarge r6in.xlarge r6g.16xlarge t4g.medium d3en.xlarge r6i.metal g5g.8xlarge d3.4xlarge r5b.12xlarge m5n.24xlarge m5.12xlarge m5a.8xlarge r6i.32xlarge u-24tb1 r5a.4xlarge i3.8xlarge m5.8xlarge c6in.2xlarge r6in.large m6id.metal a1 a1.medium t2.small r5.xlarge r3.4xlarge i3en.xlarge z1d.6xlarge m5ad.2xlarge i4i.4xlarge g3 i3p.16xlarge i4i.large c6gd m5dn.16xlarge x2iezn.12xlarge r6gd.4xlarge i3en.6xlarge p3.16xlarge m6id.2xlarge c4 im4gn.8xlarge u-12tb1.metal c4.xlarge m5zn.2xlarge r4.large d3.8xlarge r6i.12xlarge m6gd.12xlarge r6i.xlarge t3a.2xlarge r4.xlarge m5a.24xlarge r6gd r6id.16xlarge r5n.xlarge m5ad.large r5n.8xlarge g5.8xlarge d3.2xlarge m6idn g2.8xlarge c6id.24xlarge r4.16xlarge m6a.2xlarge r5a.12xlarge i3en.12xlarge m5n.large m5n.metal m5.24xlarge m2.2xlarge g5g.2xlarge c6g.8xlarge r6gd.metal x1e.2xlarge c6g.xlarge x2idn r6in.8xlarge m6a.large mac1 m6i.4xlarge c6a.metal d2.8xlarge m5n.2xlarge x2gd.xlarge m6i.12xlarge m5.4xlarge c5ad.4xlarge inf1.xlarge m4.16xlarge r6i.8xlarge m5n c6gn.2xlarge vt1.24xlarge r6id.8xlarge r6i.24xlarge m5.metal g3.8xlarge c4.2xlarge m6gd.xlarge p3dn mac2.metal p3.8xlarge r3.large c6gd.medium i3.16xlarge m1.xlarge x2idn.32xlarge m6i.large c5d.18xlarge c6gn.12xlarge c6gd.8xlarge i3.2xlarge u-12tb1 c5n.large x2iedn.4xlarge i3.metal r5b.2xlarge t3a.small t1.micro i2.8xlarge i3en.24xlarge c5n.18xlarge t4g.small m5dn c6id c5a.24xlarge r6g.8xlarge i2.2xlarge d3en.12xlarge c5ad.24xlarge t3.nano d2.2xlarge c6id.16xlarge c7g.xlarge c6a.4xlarge r5.8xlarge c5a.xlarge r5b.16xlarge r5d m6id.large c5.18xlarge r5d.8xlarge a1.4xlarge f1 r5b.24xlarge m6a.12xlarge p2 g4dn m6gd.2xlarge r6id.xlarge c5n.2xlarge c5.xlarge r5ad.8xlarge r5d.2xlarge m6id.24xlarge r6g.12xlarge g5.2xlarge dl1.24xlarge m6g.xlarge c5ad.12xlarge m6a.xlarge m6gd.8xlarge m6i.metal g2.2xlarge t3.2xlarge g5.12xlarge c6i.24xlarge g4ad.4xlarge c6a.48xlarge r6in.32xlarge i3.4xlarge is4gen.xlarge c6i.16xlarge t3.large c5ad.8xlarge i4i.metal r6in.24xlarge g3s.xlarge c1.medium c6gn d3en.8xlarge c6gd.metal x1.16xlarge r6idn.12xlarge m5dn.xlarge m6gd.16xlarge r5n.large c6i.xlarge r6idn.4xlarge c5ad.large u-6tb1.metal h1.16xlarge m5dn.metal i4i.8xlarge m5dn.large m4 c5ad.xlarge u-9tb1 x2gd.16xlarge c3.4xlarge r5d.12xlarge r6gd.8xlarge im4gn.large m6a.metal t3a.micro r6gd.large c6gd.2xlarge m5zn.12xlarge m5.2xlarge r5dn.8xlarge m4.10xlarge c6in.12xlarge r5ad.24xlarge c5n.9xlarge r4.8xlarge m6i.xlarge c5d.24xlarge r5d.xlarge i2.4xlarge c6gn.large c7g h1.2xlarge r5ad.12xlarge m5zn.xlarge p2.16xlarge m6g.metal c7g.8xlarge m2.xlarge c5n c6gn.xlarge m5n.16xlarge g4dn.2xlarge im4gn.xlarge r6id.metal p3 x2iedn.metal im4gn.2xlarge t4g.micro u-24tb1.metal t3.medium inf1.24xlarge r5dn.12xlarge m5d.8xlarge r6g x2gd.large m6a.24xlarge m6id.16xlarge m5zn.large m6gd.medium m5a.xlarge c3.8xlarge m5d.12xlarge r5dn.xlarge r6in.2xlarge r6id.large p4d.24xlarge m3 m5dn.4xlarge r5ad.16xlarge r5.12xlarge c6i.8xlarge cc2.8xlarge c5 r6in.4xlarge u-9tb1.112xlarge m1.small m5zn.metal u-6tb1.56xlarge c6in.xlarge im4gn r5b.8xlarge c5a.8xlarge m5ad.16xlarge m6in.12xlarge m5dn.12xlarge g5.xlarge g4ad.2xlarge r4 h1.4xlarge c6a.24xlarge r6i.4xlarge m5ad.8xlarge m5zn.3xlarge g4dn.4xlarge i3 c7g.12xlarge m5a.large c4.8xlarge r6idn.24xlarge m6in.32xlarge c6a.xlarge z1d dl1 x2idn.metal c6a.8xlarge i3en.large c6i.12xlarge g4ad.xlarge h1.8xlarge c5d.4xlarge p2.8xlarge i3.large r6g.4xlarge r6idn c7g.4xlarge m5ad.4xlarge r5n.12xlarge m6i.16xlarge g5.4xlarge g4dn.xlarge c6i.4xlarge m6g.8xlarge m4.xlarge m6id.32xlarge c5d.xlarge r6gd.xlarge z1d.12xlarge m6in.4xlarge x2gd.medium m6id.12xlarge g3.4xlarge r6i.large inf1.2xlarge c5d.large t2.nano u-12tb1.112xlarge x2iedn.32xlarge c6a.16xlarge r5b.xlarge g5g.4xlarge t4g.large]
+E0305 09:45:12.231354       1 aws_manager.go:264] Failed to regenerate ASG cache: cannot autodiscover ASGs: AccessDenied: User: arn:aws:sts::834894006862:assumed-role/nodes.k8s.cluster.dev.masachoco.xyz/i-0df50c296b9aa89ec is not authorized to perform: autoscaling:DescribeTags because no identity-based policy allows the autoscaling:DescribeTags action
+	status code: 403, request id: a70a8d31-a95b-4954-b4ee-2f61a4a7870b
+F0305 09:45:12.231436       1 aws_cloud_provider.go:389] Failed to create AWS Manager: cannot autodiscover ASGs: AccessDenied: User: arn:aws:sts::834894006862:assumed-role/nodes.k8s.cluster.dev.masachoco.xyz/i-0df50c296b9aa89ec is not authorized to perform: autoscaling:DescribeTags because no identity-based policy allows the autoscaling:DescribeTags action
+	status code: 403, request id: a70a8d31-a95b-4954-b4ee-2f61a4a7870b
+goroutine 46 [running]:
+k8s.io/klog/v2.stacks(0xc00000e001, 0xc0020fc380, 0x1ab, 0x36f)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/klog/v2/klog.go:1026 +0xb9
+k8s.io/klog/v2.(*loggingT).output(0x61371c0, 0xc000000003, 0x0, 0x0, 0xc00013d260, 0x0, 0x50b6724, 0x15, 0x185, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/klog/v2/klog.go:975 +0x1e5
+k8s.io/klog/v2.(*loggingT).printf(0x61371c0, 0xc000000003, 0x0, 0x0, 0x0, 0x0, 0x4126b5e, 0x20, 0xc000912a00, 0x1, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/klog/v2/klog.go:753 +0x19a
+k8s.io/klog/v2.Fatalf(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/klog/v2/klog.go:1514
+k8s.io/autoscaler/cluster-autoscaler/cloudprovider/aws.BuildAWS(0x3fe0000000000000, 0x3fe0000000000000, 0x8bb2c97000, 0x1176592e000, 0xa, 0x0, 0x4e200, 0x0, 0x186a0000000000, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/cloudprovider/aws/aws_cloud_provider.go:389 +0x966
+k8s.io/autoscaler/cluster-autoscaler/cloudprovider/builder.buildCloudProvider(0x3fe0000000000000, 0x3fe0000000000000, 0x8bb2c97000, 0x1176592e000, 0xa, 0x0, 0x4e200, 0x0, 0x186a0000000000, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/cloudprovider/builder/builder_all.go:73 +0x1b8
+k8s.io/autoscaler/cluster-autoscaler/cloudprovider/builder.NewCloudProvider(0x3fe0000000000000, 0x3fe0000000000000, 0x8bb2c97000, 0x1176592e000, 0xa, 0x0, 0x4e200, 0x0, 0x186a0000000000, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/cloudprovider/builder/cloud_provider_builder.go:45 +0x230
+k8s.io/autoscaler/cluster-autoscaler/core.initializeDefaultOptions(0xc0029336e8, 0xc0008b14a0, 0x451085)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/core/autoscaler.go:101 +0x318
+k8s.io/autoscaler/cluster-autoscaler/core.NewAutoscaler(0x3fe0000000000000, 0x3fe0000000000000, 0x8bb2c97000, 0x1176592e000, 0xa, 0x0, 0x4e200, 0x0, 0x186a0000000000, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/core/autoscaler.go:65 +0x45
+main.buildAutoscaler(0x0, 0x0, 0x0, 0x46a8a10)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/main.go:343 +0x3b8
+main.run(0xc000422b40)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/main.go:349 +0x4a
+main.main.func2(0x46a8a10, 0xc00091e280)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/main.go:454 +0x2a
+created by k8s.io/client-go/tools/leaderelection.(*LeaderElector).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/leaderelection/leaderelection.go:211 +0x11b
+
+goroutine 1 [select]:
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc0008b5bf0, 0x46495c0, 0xc0008961b0, 0xc00091e201, 0xc0001ec4e0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:167 +0x118
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc0009bfbf0, 0x77359400, 0x0, 0xc00091e201, 0xc0001ec4e0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/leaderelection.(*LeaderElector).renew(0xc000926900, 0x46a8a10, 0xc00091e2c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/leaderelection/leaderelection.go:268 +0x109
+k8s.io/client-go/tools/leaderelection.(*LeaderElector).Run(0xc000926900, 0x46a8a48, 0xc00091e280)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/leaderelection/leaderelection.go:212 +0x145
+k8s.io/client-go/tools/leaderelection.RunOrDie(0x46a8a48, 0xc00005c018, 0x46da5a0, 0xc0004b4dc0, 0x37e11d600, 0x2540be400, 0x77359400, 0xc000931630, 0x4233fa8, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/leaderelection/leaderelection.go:226 +0x9f
+main.main()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/main.go:444 +0x878
+
+goroutine 6 [chan receive]:
+k8s.io/klog/v2.(*loggingT).flushDaemon(0x61371c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/klog/v2/klog.go:1169 +0x8b
+created by k8s.io/klog/v2.init.0
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/klog/v2/klog.go:420 +0xdf
+
+goroutine 33 [select]:
+go.opencensus.io/stats/view.(*worker).start(0xc000423e00)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/go.opencensus.io/stats/view/worker.go:154 +0xcd
+created by go.opencensus.io/stats/view.init.0
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/go.opencensus.io/stats/view/worker.go:32 +0x57
+
+goroutine 16 [chan receive]:
+k8s.io/autoscaler/cluster-autoscaler/cloudprovider/exoscale/internal/k8s.io/klog.(*loggingT).flushDaemon(0x61370e0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/cloudprovider/exoscale/internal/k8s.io/klog/klog.go:1026 +0x8b
+created by k8s.io/autoscaler/cluster-autoscaler/cloudprovider/exoscale/internal/k8s.io/klog.init.0
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/cloudprovider/exoscale/internal/k8s.io/klog/klog.go:427 +0xd8
+
+goroutine 59 [IO wait]:
+internal/poll.runtime_pollWait(0x7fdf3e460bf0, 0x72, 0x0)
+	/usr/local/go/src/runtime/netpoll.go:222 +0x55
+internal/poll.(*pollDesc).wait(0xc00013b618, 0x72, 0x0, 0x0, 0x40e00c2)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:87 +0x45
+internal/poll.(*pollDesc).waitRead(...)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:92
+internal/poll.(*FD).Accept(0xc00013b600, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_unix.go:401 +0x212
+net.(*netFD).accept(0xc00013b600, 0x30, 0x30, 0x7fdf650c9108)
+	/usr/local/go/src/net/fd_unix.go:172 +0x45
+net.(*TCPListener).accept(0xc00028c6c0, 0xc000804d88, 0x40e278, 0x30)
+	/usr/local/go/src/net/tcpsock_posix.go:139 +0x32
+net.(*TCPListener).Accept(0xc00028c6c0, 0x3d2daa0, 0xc00051fb00, 0x3904c00, 0x61032f0)
+	/usr/local/go/src/net/tcpsock.go:261 +0x65
+net/http.(*Server).Serve(0xc00080a000, 0x46a06b0, 0xc00028c6c0, 0x0, 0x0)
+	/usr/local/go/src/net/http/server.go:2961 +0x285
+net/http.(*Server).ListenAndServe(0xc00080a000, 0xc00080a000, 0xd)
+	/usr/local/go/src/net/http/server.go:2890 +0xba
+net/http.ListenAndServe(...)
+	/usr/local/go/src/net/http/server.go:3144
+main.main.func1(0xc000422b40)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/main.go:409 +0x21e
+created by main.main
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/main.go:399 +0x299
+
+goroutine 76 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc0001409a0, 0xc0001ecde0, 0xc00009b1a0, 0xc000967620)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 161 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc0007c4880, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc0007c4870)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc0007c4868, 0xc000a94000, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc0007c4840, 0xc000a94000, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc0007c5600, 0x40000, 0x7fdf3e0e4aa8)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc0007c5600, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc0007c5600, 0x39b1200, 0xc000a79470, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc0009144e0, 0xc0003ea000, 0x400, 0x400, 0x40, 0x38, 0x3afec80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000bfc3c0, 0x0, 0x46636c8, 0xc000ccae40, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc00018a000, 0xc0006f44d0, 0x968e06, 0x4230868, 0x0, 0xc0006f4668, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc000ccae00)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 64 [IO wait]:
+internal/poll.runtime_pollWait(0x7fdf3e460b08, 0x72, 0xffffffffffffffff)
+	/usr/local/go/src/runtime/netpoll.go:222 +0x55
+internal/poll.(*pollDesc).wait(0xc0004a7718, 0x72, 0xd700, 0xd769, 0xffffffffffffffff)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:87 +0x45
+internal/poll.(*pollDesc).waitRead(...)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:92
+internal/poll.(*FD).Read(0xc0004a7700, 0xc00050c000, 0xd769, 0xd769, 0x0, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_unix.go:166 +0x1d5
+net.(*netFD).Read(0xc0004a7700, 0xc00050c000, 0xd769, 0xd769, 0xd721, 0xc00050c043, 0x5)
+	/usr/local/go/src/net/fd_posix.go:55 +0x4f
+net.(*conn).Read(0xc000187550, 0xc00050c000, 0xd769, 0xd769, 0x0, 0x0, 0x0)
+	/usr/local/go/src/net/net.go:183 +0x91
+crypto/tls.(*atLeastReader).Read(0xc000ebc2a0, 0xc00050c000, 0xd769, 0xd769, 0xd721, 0x6137fc0, 0x0)
+	/usr/local/go/src/crypto/tls/conn.go:776 +0x63
+bytes.(*Buffer).ReadFrom(0xc000589af8, 0x4646440, 0xc000ebc2a0, 0x40b8a5, 0x39eba40, 0x3fdf300)
+	/usr/local/go/src/bytes/buffer.go:204 +0xbe
+crypto/tls.(*Conn).readFromUntil(0xc000589880, 0x464ad80, 0xc000187550, 0x5, 0xc000187550, 0x2e3)
+	/usr/local/go/src/crypto/tls/conn.go:798 +0xf3
+crypto/tls.(*Conn).readRecordOrCCS(0xc000589880, 0x0, 0x0, 0x0)
+	/usr/local/go/src/crypto/tls/conn.go:605 +0x115
+crypto/tls.(*Conn).readRecord(...)
+	/usr/local/go/src/crypto/tls/conn.go:573
+crypto/tls.(*Conn).Read(0xc000589880, 0xc000883000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/usr/local/go/src/crypto/tls/conn.go:1276 +0x165
+bufio.(*Reader).Read(0xc0007fc7e0, 0xc0001408f8, 0x9, 0x9, 0x961c6b, 0xc0007e1c78, 0x406fa5)
+	/usr/local/go/src/bufio/bufio.go:227 +0x222
+io.ReadAtLeast(0x4646280, 0xc0007fc7e0, 0xc0001408f8, 0x9, 0x9, 0x9, 0xc000b98310, 0xe91ec7fc841a00, 0xc000b98310)
+	/usr/local/go/src/io/io.go:328 +0x87
+io.ReadFull(...)
+	/usr/local/go/src/io/io.go:347
+golang.org/x/net/http2.readFrameHeader(0xc0001408f8, 0x9, 0x9, 0x4646280, 0xc0007fc7e0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/frame.go:237 +0x89
+golang.org/x/net/http2.(*Framer).ReadFrame(0xc0001408c0, 0xc0009448d0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/frame.go:492 +0xa5
+golang.org/x/net/http2.(*clientConnReadLoop).run(0xc0007e1fa8, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:1821 +0xd8
+golang.org/x/net/http2.(*ClientConn).readLoop(0xc0007de480)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:1743 +0x6f
+created by golang.org/x/net/http2.(*Transport).newClientConn
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:695 +0x6c5
+
+goroutine 43 [chan receive]:
+k8s.io/apimachinery/pkg/watch.(*Broadcaster).loop(0xc00091f1c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/mux.go:247 +0x66
+created by k8s.io/apimachinery/pkg/watch.NewLongQueueBroadcaster
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/mux.go:89 +0xf8
+
+goroutine 44 [chan receive]:
+k8s.io/client-go/tools/record.(*eventBroadcasterImpl).StartEventWatcher.func1(0x4663970, 0xc00093c6c0, 0xc00093c690)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/record/event.go:301 +0xaa
+created by k8s.io/client-go/tools/record.(*eventBroadcasterImpl).StartEventWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/record/event.go:299 +0x6e
+
+goroutine 241 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc000140b60, 0xc0001ecde0, 0xc000c95f20, 0xc0007d45a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 106 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc000140460, 0xc0f937061ecbf92f, 0x7d4b1bfb, 0x6136d40, 0x4663948, 0xc000f7b480, 0xc000977bd0, 0xc00044dc80, 0xc0001ecde0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc000140460, 0xc0001ecde0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc00096ff30)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000977f30, 0x46495a0, 0xc000184870, 0x1, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc000140460, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+created by k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes.NewUnschedulablePodInNamespaceLister
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:190 +0x1e5
+
+goroutine 107 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc000140540, 0xc0f93705f6a660e6, 0x598ab9b2, 0x6136d40, 0x4663948, 0xc00099b840, 0xc000cfdbd0, 0xc00078f260, 0xc0001ecde0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc000140540, 0xc0001ecde0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc00096ef30)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000cfdf30, 0x46495a0, 0xc000184910, 0x1, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc000140540, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+created by k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes.NewScheduledPodLister
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:214 +0x1ce
+
+goroutine 108 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc000140620, 0xc0f93705c724cf43, 0x2a09280f, 0x6136d40, 0x4663948, 0xc0004ba980, 0xc000403bd0, 0xc00044c060, 0xc0001ecde0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc000140620, 0xc0001ecde0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000970f30)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000403f30, 0x46495a0, 0xc0001849b0, 0x1, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc000140620, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+created by k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes.NewNodeLister
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:248 +0x1eb
+
+goroutine 109 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc0001409a0, 0xc0f93705ccd457c0, 0x2fb8b094, 0x6136d40, 0x4663948, 0xc000ccae00, 0xc0007e3bd0, 0xc000967620, 0xc0001ecde0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc0001409a0, 0xc0001ecde0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000805f30)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc0007e3f30, 0x46495a0, 0xc000184a50, 0x1, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc0001409a0, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+created by k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes.NewNodeLister
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:248 +0x1eb
+
+goroutine 110 [select]:
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000335f30, 0x46495a0, 0xc000184b90, 0x1, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:167 +0x118
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc000140a80, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+created by k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes.NewPodDisruptionBudgetLister
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:311 +0x1eb
+
+goroutine 111 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc000140b60, 0xc0f937060d00b563, 0x6b7fd837, 0x6136d40, 0x4663948, 0xc0004bbf40, 0xc000cffbd0, 0xc0007d45a0, 0xc0001ecde0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc000140b60, 0xc0001ecde0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000971f30)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000cfff30, 0x46495a0, 0xc000184c30, 0x1, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc000140b60, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+created by k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes.NewDaemonSetLister
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:322 +0x1e5
+
+goroutine 112 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc000140c40, 0xc0f93705f0a0248f, 0x53847d76, 0x6136d40, 0x4663948, 0xc00099b6c0, 0xc00081dbd0, 0xc000967560, 0xc0001ecde0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc000140c40, 0xc0001ecde0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000800f30)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc00081df30, 0x46495a0, 0xc000184cd0, 0x1, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc000140c40, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+created by k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes.NewReplicationControllerLister
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:331 +0x1e7
+
+goroutine 113 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc000140d20, 0xc0f93705e4b77a4a, 0x479bd31c, 0x6136d40, 0x4663948, 0xc0004bb2c0, 0xc0007e5bd0, 0xc00007ef60, 0xc0001ecde0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc000140d20, 0xc0001ecde0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000801f30)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc0007e5f30, 0x46495a0, 0xc000184dc0, 0x1, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc000140d20, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+created by k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes.NewJobLister
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:340 +0x1e5
+
+goroutine 114 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc000140e00, 0xc0f9370618ba4109, 0x773963d6, 0x6136d40, 0x4663948, 0xc000f7a140, 0xc000401bd0, 0xc00007e840, 0xc0001ecde0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc000140e00, 0xc0001ecde0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000802f30)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000401f30, 0x46495a0, 0xc000184e60, 0x1, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc000140e00, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+created by k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes.NewReplicaSetLister
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:349 +0x1e5
+
+goroutine 115 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc000140ee0, 0xc0f93706190a027f, 0x7789254b, 0x6136d40, 0x4663948, 0xc000a8a1c0, 0xc000cf9bd0, 0xc0003fdaa0, 0xc0001ecde0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc000140ee0, 0xc0001ecde0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc00096df30)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000cf9f30, 0x46495a0, 0xc000184f50, 0x1, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc000140ee0, 0xc0001ecde0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+created by k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes.NewStatefulSetLister
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/utils/kubernetes/listers.go:358 +0x1e5
+
+goroutine 116 [chan receive]:
+k8s.io/apimachinery/pkg/watch.(*Broadcaster).loop(0xc0000b42c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/mux.go:247 +0x66
+created by k8s.io/apimachinery/pkg/watch.NewLongQueueBroadcaster
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/mux.go:89 +0xf8
+
+goroutine 117 [chan receive]:
+k8s.io/client-go/tools/record.(*eventBroadcasterImpl).StartEventWatcher.func1(0x4663970, 0xc0009092f0, 0xc0009092c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/record/event.go:301 +0xaa
+created by k8s.io/client-go/tools/record.(*eventBroadcasterImpl).StartEventWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/record/event.go:299 +0x6e
+
+goroutine 126 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc000140620, 0xc0001ecde0, 0xc0002e04e0, 0xc00044c060)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 213 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc000140c40, 0xc0001ecde0, 0xc0009a01e0, 0xc000967560)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 160 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc000140d20, 0xc0001ecde0, 0xc000c95860, 0xc00007ef60)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 273 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc000140e00, 0xc0001ecde0, 0xc000dc5a40, 0xc00007e840)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 274 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc000140ee0, 0xc0001ecde0, 0xc000866c60, 0xc0003fdaa0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 199 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc000140540, 0xc0001ecde0, 0xc000dc5e60, 0xc00078f260)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 282 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000c2b0c0, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000c2b0b0)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc000c2b0a8, 0xc000a94800, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc000c2b080, 0xc000a94800, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc0011c4000, 0x762f73707061, 0x7fdf3e09aaf0)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc0011c4000, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc0011c4000, 0x39b1200, 0xc00110fbf0, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc0011168a0, 0xc001180c00, 0x400, 0x400, 0x40, 0x38, 0x3afec80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000f7c640, 0x0, 0x46636c8, 0xc000f7b540, 0x776f3a66222c7d7d, 0x726566655272656e, 0x7b3a227365636e65, 0x222c7d7b3a222e22, 0x646975225c7b3a6b)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc000ee94c0, 0x3a66222c7d7b3a22, 0x726f7463656c6573, 0x3a66222c7d7b3a22, 0x6574616c706d6574, 0x656d3a66227b3a22, 0x3a22617461646174)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc000f7b500)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 148 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000256848, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000256838)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+k8s.io/client-go/tools/cache.(*DeltaFIFO).Pop(0xc000256820, 0xc0009310d0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/delta_fifo.go:525 +0x98
+k8s.io/client-go/tools/cache.(*controller).processLoop(0xc00089db00)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:183 +0x42
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000ce4e70)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000ce4e70, 0x46495c0, 0xc000915d70, 0xc000c21e01, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc000ce4e70, 0x3b9aca00, 0x0, 0xc000b34701, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*controller).Run(0xc00089db00, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:154 +0x2e5
+k8s.io/client-go/tools/cache.(*sharedIndexInformer).Run(0xc000257720, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:410 +0x42a
+created by k8s.io/client-go/informers.(*sharedInformerFactory).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/informers/factory.go:134 +0x191
+
+goroutine 147 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc0002567a8, 0x1)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000256798)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+k8s.io/client-go/tools/cache.(*DeltaFIFO).Pop(0xc000256780, 0xc000930df0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/delta_fifo.go:525 +0x98
+k8s.io/client-go/tools/cache.(*controller).processLoop(0xc00089cea0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:183 +0x42
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000332e70)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000332e70, 0x46495c0, 0xc000915920, 0xc000c21c01, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc000332e70, 0x3b9aca00, 0x0, 0xc00046e901, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*controller).Run(0xc00089cea0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:154 +0x2e5
+k8s.io/client-go/tools/cache.(*sharedIndexInformer).Run(0xc000257180, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:410 +0x42a
+created by k8s.io/client-go/informers.(*sharedInformerFactory).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/informers/factory.go:134 +0x191
+
+goroutine 146 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000256708, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc0002566f8)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+k8s.io/client-go/tools/cache.(*DeltaFIFO).Pop(0xc0002566e0, 0xc000930ab0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/delta_fifo.go:525 +0x98
+k8s.io/client-go/tools/cache.(*controller).processLoop(0xc00089c6c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:183 +0x42
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000ce8e70)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000ce8e70, 0x46495c0, 0xc0009155f0, 0xc000c21a01, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc000ce8e70, 0x3b9aca00, 0x0, 0xc00049a001, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*controller).Run(0xc00089c6c0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:154 +0x2e5
+k8s.io/client-go/tools/cache.(*sharedIndexInformer).Run(0xc000257860, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:410 +0x42a
+created by k8s.io/client-go/informers.(*sharedInformerFactory).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/informers/factory.go:134 +0x191
+
+goroutine 145 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000256668, 0x1)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000256658)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+k8s.io/client-go/tools/cache.(*DeltaFIFO).Pop(0xc000256640, 0xc0009306e0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/delta_fifo.go:525 +0x98
+k8s.io/client-go/tools/cache.(*controller).processLoop(0xc000815d40)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:183 +0x42
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000336e70)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000336e70, 0x46495c0, 0xc0009152f0, 0xc000c21801, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc000336e70, 0x3b9aca00, 0x0, 0xc000775b01, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*controller).Run(0xc000815d40, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:154 +0x2e5
+k8s.io/client-go/tools/cache.(*sharedIndexInformer).Run(0xc0002577c0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:410 +0x42a
+created by k8s.io/client-go/informers.(*sharedInformerFactory).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/informers/factory.go:134 +0x191
+
+goroutine 144 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc0002565c8, 0x1)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc0002565b8)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+k8s.io/client-go/tools/cache.(*DeltaFIFO).Pop(0xc0002565a0, 0xc0009302b0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/delta_fifo.go:525 +0x98
+k8s.io/client-go/tools/cache.(*controller).processLoop(0xc000815680)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:183 +0x42
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000334e70)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000334e70, 0x46495c0, 0xc000914ea0, 0xc000c21601, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc000334e70, 0x3b9aca00, 0x0, 0xc000155401, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*controller).Run(0xc000815680, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:154 +0x2e5
+k8s.io/client-go/tools/cache.(*sharedIndexInformer).Run(0xc000257680, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:410 +0x42a
+created by k8s.io/client-go/informers.(*sharedInformerFactory).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/informers/factory.go:134 +0x191
+
+goroutine 137 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc0003057a0, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000305790)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc000305788, 0xc0005ffc00, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc000305760, 0xc0005ffc00, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc000366b00, 0x0, 0x7fdf3e46e6c8)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc000366b00, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc000366b00, 0x39b1200, 0xc00028d860, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc00074b590, 0xc0003ea400, 0x400, 0x400, 0x40, 0x38, 0x3afec80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000185d10, 0x0, 0x46636c8, 0xc0004ba9c0, 0x0, 0x203000, 0x0, 0x0, 0xc00006ae28)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc00074cd40, 0xc000909650, 0x30, 0x30, 0x36a9380, 0xc00006aeb0, 0x846e86)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc0004ba980)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 143 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc0002563e8, 0x1)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc0002563d8)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+k8s.io/client-go/tools/cache.(*DeltaFIFO).Pop(0xc0002563c0, 0xc00005b880, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/delta_fifo.go:525 +0x98
+k8s.io/client-go/tools/cache.(*controller).processLoop(0xc000814f30)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:183 +0x42
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000806e70)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000806e70, 0x46495c0, 0xc000914a80, 0xc000c21401, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc000806e70, 0x3b9aca00, 0x0, 0xc00044fe01, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*controller).Run(0xc000814f30, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:154 +0x2e5
+k8s.io/client-go/tools/cache.(*sharedIndexInformer).Run(0xc000257400, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:410 +0x42a
+created by k8s.io/client-go/informers.(*sharedInformerFactory).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/informers/factory.go:134 +0x191
+
+goroutine 142 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000256348, 0x1)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000256338)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+k8s.io/client-go/tools/cache.(*DeltaFIFO).Pop(0xc000256320, 0xc00005b090, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/delta_fifo.go:525 +0x98
+k8s.io/client-go/tools/cache.(*controller).processLoop(0xc0008147e0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:183 +0x42
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000338e70)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000338e70, 0x46495c0, 0xc000914570, 0xc000c21201, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc000338e70, 0x3b9aca00, 0x0, 0xc00044fb01, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*controller).Run(0xc0008147e0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:154 +0x2e5
+k8s.io/client-go/tools/cache.(*sharedIndexInformer).Run(0xc0002570e0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:410 +0x42a
+created by k8s.io/client-go/informers.(*sharedInformerFactory).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/informers/factory.go:134 +0x191
+
+goroutine 141 [sleep]:
+time.Sleep(0x3b9aca00)
+	/usr/local/go/src/runtime/time.go:193 +0xd2
+k8s.io/kubernetes/pkg/scheduler/framework/runtime.(*metricsRecorder).run(0xc000af5e00)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/kubernetes/pkg/scheduler/framework/runtime/metrics_recorder.go:88 +0x3f
+created by k8s.io/kubernetes/pkg/scheduler/framework/runtime.newMetricsRecorder
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/kubernetes/pkg/scheduler/framework/runtime/metrics_recorder.go:60 +0x108
+
+goroutine 290 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000304ca0, 0xc000000000)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000304c90)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc000304c88, 0xc0008b7800, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc000304c60, 0xc0008b7800, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc0004bcc60, 0x0, 0x7fdf3e106888)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc0004bcc60, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc0004bcc60, 0x39b1200, 0xc000946558, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc00021a060, 0xc000ff3400, 0x400, 0x400, 0x40, 0x38, 0x3afec80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000d8f130, 0x0, 0x46636c8, 0xc0007d6000, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc00093fd60, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc0004bbfc0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 149 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000256988, 0x1)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000256978)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+k8s.io/client-go/tools/cache.(*DeltaFIFO).Pop(0xc000256960, 0xc0009b69d0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/delta_fifo.go:525 +0x98
+k8s.io/client-go/tools/cache.(*controller).processLoop(0xc0007cd0e0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:183 +0x42
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000800e70)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000800e70, 0x46495c0, 0xc0009b92f0, 0xc000939401, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc000800e70, 0x3b9aca00, 0x0, 0xc000b28001, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*controller).Run(0xc0007cd0e0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:154 +0x2e5
+k8s.io/client-go/tools/cache.(*sharedIndexInformer).Run(0xc000257040, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:410 +0x42a
+created by k8s.io/client-go/informers.(*sharedInformerFactory).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/informers/factory.go:134 +0x191
+
+goroutine 150 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000256a28, 0x1)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000256a18)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+k8s.io/client-go/tools/cache.(*DeltaFIFO).Pop(0xc000256a00, 0xc0009b6cf0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/delta_fifo.go:525 +0x98
+k8s.io/client-go/tools/cache.(*controller).processLoop(0xc000218120)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:183 +0x42
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000ce7e70)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000ce7e70, 0x46495c0, 0xc0009b96b0, 0xc000939701, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc000ce7e70, 0x3b9aca00, 0x0, 0xc000236a01, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*controller).Run(0xc000218120, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:154 +0x2e5
+k8s.io/client-go/tools/cache.(*sharedIndexInformer).Run(0xc000257220, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:410 +0x42a
+created by k8s.io/client-go/informers.(*sharedInformerFactory).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/informers/factory.go:134 +0x191
+
+goroutine 151 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000f0e708, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000f0e6f8)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+k8s.io/client-go/tools/cache.(*DeltaFIFO).Pop(0xc000f0e6e0, 0xc0001afaf0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/delta_fifo.go:525 +0x98
+k8s.io/client-go/tools/cache.(*controller).processLoop(0xc0008b9050)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:183 +0x42
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000803e70)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000803e70, 0x46495c0, 0xc000cc9740, 0xc00005cf01, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc000803e70, 0x3b9aca00, 0x0, 0xc0004a4f01, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*controller).Run(0xc0008b9050, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:154 +0x2e5
+k8s.io/client-go/tools/cache.(*sharedIndexInformer).Run(0xc000257360, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:410 +0x42a
+created by k8s.io/client-go/informers.(*sharedInformerFactory).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/informers/factory.go:134 +0x191
+
+goroutine 152 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000f0e7a8, 0x1)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000f0e798)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+k8s.io/client-go/tools/cache.(*DeltaFIFO).Pop(0xc000f0e780, 0xc000798700, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/delta_fifo.go:525 +0x98
+k8s.io/client-go/tools/cache.(*controller).processLoop(0xc0008b98c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:183 +0x42
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000339e70)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000339e70, 0x46495c0, 0xc000cc9b60, 0xc00005d601, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc000339e70, 0x3b9aca00, 0x0, 0xc000b24201, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*controller).Run(0xc0008b98c0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:154 +0x2e5
+k8s.io/client-go/tools/cache.(*sharedIndexInformer).Run(0xc000256fa0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:410 +0x42a
+created by k8s.io/client-go/informers.(*sharedInformerFactory).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/informers/factory.go:134 +0x191
+
+goroutine 153 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000f0e848, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000f0e838)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+k8s.io/client-go/tools/cache.(*DeltaFIFO).Pop(0xc000f0e820, 0xc000798b40, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/delta_fifo.go:525 +0x98
+k8s.io/client-go/tools/cache.(*controller).processLoop(0xc000814240)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:183 +0x42
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc00096ae70)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc00096ae70, 0x46495c0, 0xc000cc9f20, 0xc00005dc01, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc00096ae70, 0x3b9aca00, 0x0, 0xc000268801, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*controller).Run(0xc000814240, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:154 +0x2e5
+k8s.io/client-go/tools/cache.(*sharedIndexInformer).Run(0xc0002572c0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:410 +0x42a
+created by k8s.io/client-go/informers.(*sharedInformerFactory).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/informers/factory.go:134 +0x191
+
+goroutine 154 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000f0e8e8, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000f0e8d8)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+k8s.io/client-go/tools/cache.(*DeltaFIFO).Pop(0xc000f0e8c0, 0xc000799010, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/delta_fifo.go:525 +0x98
+k8s.io/client-go/tools/cache.(*controller).processLoop(0xc000814cf0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:183 +0x42
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc00096be70)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc00096be70, 0x46495c0, 0xc00080e330, 0xc000771701, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc00096be70, 0x3b9aca00, 0x0, 0xc000236c01, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*controller).Run(0xc000814cf0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:154 +0x2e5
+k8s.io/client-go/tools/cache.(*sharedIndexInformer).Run(0xc0002574a0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:410 +0x42a
+created by k8s.io/client-go/informers.(*sharedInformerFactory).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/informers/factory.go:134 +0x191
+
+goroutine 155 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000f0e988, 0x1)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000f0e978)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+k8s.io/client-go/tools/cache.(*DeltaFIFO).Pop(0xc000f0e960, 0xc000799420, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/delta_fifo.go:525 +0x98
+k8s.io/client-go/tools/cache.(*controller).processLoop(0xc0008155f0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:183 +0x42
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc00096ce70)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc00096ce70, 0x46495c0, 0xc00080e6f0, 0xc000771901, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc00096ce70, 0x3b9aca00, 0x0, 0xc000b34401, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*controller).Run(0xc0008155f0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:154 +0x2e5
+k8s.io/client-go/tools/cache.(*sharedIndexInformer).Run(0xc0002575e0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:410 +0x42a
+created by k8s.io/client-go/informers.(*sharedInformerFactory).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/informers/factory.go:134 +0x191
+
+goroutine 301 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000366720, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000366710)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc000366708, 0xc0008b7c00, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc0003666e0, 0xc0008b7c00, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc0007d1760, 0x0, 0x7fdf3e106888)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc0007d1760, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc0007d1760, 0x39b1200, 0xc000946c48, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc00021acf0, 0xc0005c7400, 0x400, 0x400, 0x40, 0x38, 0x3afec80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000d8f720, 0x0, 0x46636c8, 0xc000cca640, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc00093fde0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc000cca580)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 195 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc0007c54e0, 0xc000000000)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc0007c54d0)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc0007c54c8, 0xc0008b6200, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc0007c54a0, 0xc0008b6200, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc0001911e0, 0x58, 0x7fdf3e46de48)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc0001911e0, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc0001911e0, 0x39b1200, 0xc0008a1128, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc000d337a0, 0xc0005c7000, 0x400, 0x400, 0x40, 0x38, 0x3afec80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000185540, 0x0, 0x46636c8, 0xc0004bb300, 0xc000b42dd0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc000d30e00, 0x0, 0x0, 0x0, 0x0, 0x40a63f, 0xc00003a000)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc0004bb2c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 163 [chan receive]:
+k8s.io/client-go/tools/cache.(*sharedProcessor).run(0xc000296620, 0xc000c95bc0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:628 +0x53
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000c21270, 0xc000a794b8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 164 [chan receive]:
+k8s.io/client-go/tools/cache.(*controller).Run.func1(0xc0007394a0, 0xc0008147e0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:130 +0x34
+created by k8s.io/client-go/tools/cache.(*controller).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:129 +0xa5
+
+goroutine 165 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc0001400e0, 0xc0f93705eb097b01, 0x4dedd3c4, 0x6136d40, 0x4663948, 0xc00099b640, 0xc000cfbb68, 0xc0005f3020, 0xc0007394a0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc0001400e0, 0xc0007394a0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000805ec8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000cfbec8, 0x46495a0, 0xc000bfc460, 0x1, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc0001400e0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000c212b0, 0xc000a794d0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 196 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc0001400e0, 0xc0007394a0, 0xc000ab1c20, 0xc0005f3020)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 215 [chan receive]:
+k8s.io/client-go/tools/cache.(*sharedProcessor).run(0xc0002965b0, 0xc0009a0360)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:628 +0x53
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000939490, 0xc00028db60)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 168 [chan receive]:
+k8s.io/client-go/tools/cache.(*sharedProcessor).run(0xc000296850, 0xc000c95d40)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:628 +0x53
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000c21420, 0xc000a795a8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 169 [chan receive]:
+k8s.io/client-go/tools/cache.(*controller).Run.func1(0xc0007394a0, 0xc000814f30)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:130 +0x34
+created by k8s.io/client-go/tools/cache.(*controller).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:129 +0xa5
+
+goroutine 170 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc0001401c0, 0xc0f93705eb129eea, 0x4df6f7ad, 0x6136d40, 0x4663948, 0xc00099b5c0, 0xc000405b68, 0xc0005f3380, 0xc0007394a0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc0001401c0, 0xc0007394a0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000807ec8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000405ec8, 0x46495a0, 0xc000bfc5a0, 0x1, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc0001401c0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000c21460, 0xc000a795c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 197 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc0001401c0, 0xc0007394a0, 0xc000ab1da0, 0xc0005f3380)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 173 [chan receive]:
+k8s.io/client-go/tools/cache.(*sharedProcessor).run(0xc000296a10, 0xc000c95ec0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:628 +0x53
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000c215d0, 0xc000a79698)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 174 [chan receive]:
+k8s.io/client-go/tools/cache.(*controller).Run.func1(0xc0007394a0, 0xc000815680)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:130 +0x34
+created by k8s.io/client-go/tools/cache.(*controller).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:129 +0xa5
+
+goroutine 175 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc000140fc0, 0xc0f93705f0b993fc, 0x539decdc, 0x6136d40, 0x4663948, 0xc00099b740, 0xc0003ffb68, 0xc00078d380, 0xc0007394a0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc000140fc0, 0xc0007394a0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000335ec8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc0003ffec8, 0x46495a0, 0xc000bfc6e0, 0x1, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc000140fc0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000c21610, 0xc000a796b0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 198 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc000140fc0, 0xc0007394a0, 0xc000dc4960, 0xc00078d380)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 178 [chan receive]:
+k8s.io/client-go/tools/cache.(*sharedProcessor).run(0xc000296bd0, 0xc000a7fbc0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:628 +0x53
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000c21870, 0xc000a79788)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 179 [chan receive]:
+k8s.io/client-go/tools/cache.(*controller).Run.func1(0xc0007394a0, 0xc000815d40)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:130 +0x34
+created by k8s.io/client-go/tools/cache.(*controller).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:129 +0xa5
+
+goroutine 180 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc0001410a0, 0xc0f93705eafe9216, 0x4de2ead7, 0x6136d40, 0x4663948, 0xc00099b540, 0xc0007e7b68, 0xc00035dda0, 0xc0007394a0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc0001410a0, 0xc0007394a0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000337ec8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc0007e7ec8, 0x46495a0, 0xc000bfc780, 0x1, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc0001410a0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000c218b0, 0xc000a797a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 194 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc0001410a0, 0xc0007394a0, 0xc000ab1620, 0xc00035dda0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 183 [chan receive]:
+k8s.io/client-go/tools/cache.(*sharedProcessor).run(0xc000296d20, 0xc000a7fe60)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:628 +0x53
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000c21a30, 0xc000a79860)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 184 [chan receive]:
+k8s.io/client-go/tools/cache.(*controller).Run.func1(0xc0007394a0, 0xc00089c6c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:130 +0x34
+created by k8s.io/client-go/tools/cache.(*controller).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:129 +0xa5
+
+goroutine 185 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc000141340, 0xc0f937060d17c340, 0x6b96e600, 0x6136d40, 0x4663948, 0xc0004bbfc0, 0xc000817b68, 0xc0007957a0, 0xc0007394a0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc000141340, 0xc0007394a0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000ce9ec8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000817ec8, 0x46495a0, 0xc000bfc8c0, 0x1, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc000141340, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000c21a70, 0xc000a79878)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 289 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc0008bd220, 0xc000000000)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc0008bd210)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc0008bd208, 0xc0008b6e00, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc0008bd1e0, 0xc0008b6e00, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc0004bc840, 0x0, 0x7fdf3e106888)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc0004bc840, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc0004bc840, 0x39b1200, 0xc000946540, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc00083ff50, 0xc000ff3000, 0x400, 0x400, 0x40, 0x38, 0x3afec80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000d8f0e0, 0x0, 0x46636c8, 0xc0004bbf80, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc00093fd40, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc0004bbf40)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 201 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc000141340, 0xc0007394a0, 0xc000739380, 0xc0007957a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 207 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000305a60, 0xc000000000)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000305a50)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc000305a48, 0xc0008b6600, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc000305a20, 0xc0008b6600, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc000366dc0, 0x0, 0x7fdf3e448120)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc000366dc0, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc000366dc0, 0x39b1200, 0xc000182ac8, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc00073b680, 0xc000ff2400, 0x400, 0x400, 0x40, 0x38, 0x3afec80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000bfdef0, 0x0, 0x46636c8, 0xc000a56700, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc000a19bc0, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc000a56680)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 188 [chan receive]:
+k8s.io/client-go/tools/cache.(*sharedProcessor).run(0xc000296690, 0xc000cf2060)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:628 +0x53
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000c21bd0, 0xc000a79920)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 189 [chan receive]:
+k8s.io/client-go/tools/cache.(*controller).Run.func1(0xc0007394a0, 0xc00089cea0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:130 +0x34
+created by k8s.io/client-go/tools/cache.(*controller).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:129 +0xa5
+
+goroutine 190 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc000141420, 0xc0f937060d1c8320, 0x6b9ba5ec, 0x6136d40, 0x4663948, 0xc000cca580, 0xc000819b68, 0xc0007959e0, 0xc0007394a0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc000141420, 0xc0007394a0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000333ec8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000819ec8, 0x46495a0, 0xc000bfca00, 0x1, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc000141420, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000c21c10, 0xc000a79938)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 209 [chan receive]:
+k8s.io/client-go/tools/cache.(*sharedProcessor).run(0xc000296af0, 0xc000cf2240)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:628 +0x53
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000c21e80, 0xc000a799e0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 210 [chan receive]:
+k8s.io/client-go/tools/cache.(*controller).Run.func1(0xc0007394a0, 0xc00089db00)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:130 +0x34
+created by k8s.io/client-go/tools/cache.(*controller).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:129 +0xa5
+
+goroutine 211 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc000141500, 0xc0f937060d1aec6c, 0x6b9a0f2c, 0x6136d40, 0x4663948, 0xc000a56680, 0xc000fc5b68, 0xc0007958c0, 0xc0007394a0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc000141500, 0xc0007394a0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000ce5ec8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000fc5ec8, 0x46495a0, 0xc000bfcaa0, 0x1, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc000141500, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000c21ec0, 0xc000a799f8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 202 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc000141500, 0xc0007394a0, 0xc000739bc0, 0xc0007958c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 216 [chan receive]:
+k8s.io/client-go/tools/cache.(*controller).Run.func1(0xc0007394a0, 0xc0007cd0e0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:130 +0x34
+created by k8s.io/client-go/tools/cache.(*controller).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:129 +0xa5
+
+goroutine 217 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc0001415e0, 0xc0f9370618cdcad0, 0x774ced93, 0x6136d40, 0x4663948, 0xc0007d7f80, 0xc000fc7b68, 0xc000206420, 0xc0007394a0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc0001415e0, 0xc0007394a0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000ce6ec8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000fc7ec8, 0x46495a0, 0xc000bfcfa0, 0x1, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc0001415e0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc0009394d0, 0xc00028db90)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 208 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc0001415e0, 0xc0007394a0, 0xc000a7e900, 0xc000206420)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 245 [chan receive]:
+k8s.io/client-go/tools/cache.(*sharedProcessor).run(0xc0002967e0, 0xc000a3e240)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:628 +0x53
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc00005cf84, 0xc000c84930)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 220 [chan receive]:
+k8s.io/client-go/tools/cache.(*sharedProcessor).run(0xc000296700, 0xc0009a0600)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:628 +0x53
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000939760, 0xc00028dc80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 221 [chan receive]:
+k8s.io/client-go/tools/cache.(*controller).Run.func1(0xc0007394a0, 0xc000218120)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:130 +0x34
+created by k8s.io/client-go/tools/cache.(*controller).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:129 +0xa5
+
+goroutine 222 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc0001416c0, 0xc0f93706013bcd00, 0x5fbaefcd, 0x6136d40, 0x4663948, 0xc000afe780, 0xc000fc1b68, 0xc0007907e0, 0xc0007394a0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc0001416c0, 0xc0007394a0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000e0eec8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000fc1ec8, 0x46495a0, 0xc000bfd040, 0x1, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc0001416c0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc0009397a0, 0xc00028dc98)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 233 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc0001416c0, 0xc0007394a0, 0xc0009a07e0, 0xc0007907e0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 254 [chan receive]:
+k8s.io/client-go/tools/cache.(*processorListener).run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:772 +0x5d
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000b42760)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000805f60, 0x46495c0, 0xc00080e2d0, 0x388e201, 0xc000a3e900)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc000b42760, 0x3b9aca00, 0x0, 0x1, 0xc000a3e900)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*processorListener).run(0xc000af8b80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:771 +0x95
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000296840, 0xc000798b10)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 203 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc000141420, 0xc0007394a0, 0xc000739e00, 0xc0007959e0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 234 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000203900, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc0002038f0)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc0002038e8, 0xc000a94c00, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc0002038c0, 0xc000a94c00, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc000291b80, 0x0, 0x7fdf3e03a318)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc000291b80, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc000291b80, 0x39b1200, 0xc000fc8750, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc000feabd0, 0xc000ceec00, 0x400, 0x400, 0xc00099b580, 0x40, 0x38)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000bfd770, 0x0, 0x46636c8, 0xc00099b580, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc000fd3f60, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc00099b540)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 235 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000203bc0, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000203bb0)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc000203ba8, 0xc000a94e00, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc000203b80, 0xc000a94e00, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc000291ce0, 0x58, 0x7fdf3e03a318)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc000291ce0, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc000291ce0, 0x39b1200, 0xc000fc8768, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc000feac90, 0xc000cef000, 0x400, 0x400, 0xc00099b600, 0x40, 0x38)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000bfd7c0, 0x0, 0x46636c8, 0xc00099b600, 0xc000b43dd0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc000fd3f80, 0x0, 0x0, 0x0, 0x0, 0x40a63f, 0xc00003a000)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc00099b5c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 236 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000203a60, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000203a50)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc000203a48, 0xc000a95000, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc000203a20, 0xc000a95000, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc000291e40, 0x58, 0x7fdf3e03a318)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc000291e40, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc000291e40, 0x39b1200, 0xc000fc8780, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc000fead50, 0xc000cef400, 0x400, 0x400, 0xc00099b680, 0x40, 0x38)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000bfd810, 0x0, 0x46636c8, 0xc00099b680, 0xc000b435d0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc000fd3fa0, 0x0, 0x0, 0x0, 0x0, 0x40a63f, 0xc00003a000)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc00099b640)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 237 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000203d20, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000203d10)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc000203d08, 0xc000a95200, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc000203ce0, 0xc000a95200, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc0008bc000, 0x4709628, 0x7fdf3e03a318)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc0008bc000, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc0008bc000, 0x39b1200, 0xc000fc8798, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc000feae10, 0xc000cef800, 0x400, 0x400, 0xc00099b700, 0x40, 0x38)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000bfd860, 0x0, 0x46636c8, 0xc00099b700, 0x35dc2c0, 0x46fe458, 0xc0004ba580, 0xc00034afa0, 0x8a2685)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc000fd3fc0, 0x1, 0x100000000000000, 0x5, 0x5, 0x8, 0x2)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc00099b6c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 238 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc0009649e0, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc0009649d0)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc0009649c8, 0xc000a95400, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc0009649a0, 0xc000a95400, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc0008bc160, 0x403e380, 0x7fdf3e03a318)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc0008bc160, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc0008bc160, 0x39b1200, 0xc000fc87b0, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc000feaed0, 0xc000cefc00, 0x400, 0x400, 0xc00099b780, 0x40, 0x38)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000bfd8b0, 0x0, 0x46636c8, 0xc00099b780, 0x4662160, 0x0, 0xc0001b1410, 0x2d, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc000fd3fe0, 0x6166b18, 0x0, 0x40daca6, 0x3, 0xc00005cb59, 0x7)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc00099b740)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 243 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000291a60, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000291a50)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc000291a48, 0xc000a94200, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc000291a20, 0xc000a94200, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc0008bd4a0, 0x0, 0x7fdf3e0d5f08)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc0008bd4a0, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc0008bd4a0, 0x39b1200, 0xc000c848e8, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc000cc9620, 0xc000808000, 0x400, 0x400, 0x40, 0x38, 0x3afec80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000f32af0, 0x0, 0x46636c8, 0xc000afe7c0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc000722180, 0x0, 0x0, 0x30, 0x36a9380, 0xc0006f76b0, 0x846e86)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc000afe780)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 240 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc0002ddd20, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc0002ddd10)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc0002ddd08, 0xc000a95600, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc0002ddce0, 0xc000a95600, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc0008bc420, 0x403e380, 0x7fdf3e03a318)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc0008bc420, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc0008bc420, 0x39b1200, 0xc000fc8840, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc000feb0b0, 0xc000ff2000, 0x400, 0x400, 0xc00099b880, 0x40, 0x38)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000bfd950, 0x0, 0x46636c8, 0xc00099b880, 0x4662160, 0x0, 0xc0001b1410, 0x2d, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc000ff4000, 0x6166b18, 0x0, 0x40daca6, 0x3, 0xc00005cb59, 0x7)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc00099b840)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 246 [chan receive]:
+k8s.io/client-go/tools/cache.(*controller).Run.func1(0xc0007394a0, 0xc0008b9050)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:130 +0x34
+created by k8s.io/client-go/tools/cache.(*controller).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:129 +0xa5
+
+goroutine 247 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc00080a2a0, 0xc0f9370630c3506a, 0x8f427338, 0x6136d40, 0x4663948, 0xc00100c8c0, 0xc000fc3b68, 0xc000181c20, 0xc0007394a0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc00080a2a0, 0xc0007394a0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000e0cec8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000fc3ec8, 0x46495a0, 0xc000f32b90, 0x1, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc00080a2a0, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc00005cfe0, 0xc000c84948)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 309 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc00080a2a0, 0xc0007394a0, 0xc000a7f680, 0xc000181c20)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 250 [chan receive]:
+k8s.io/client-go/tools/cache.(*sharedProcessor).run(0xc000296540, 0xc000a3e4e0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:628 +0x53
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc00005d570, 0xc000c84a98)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 251 [chan receive]:
+k8s.io/client-go/tools/cache.(*controller).Run.func1(0xc0007394a0, 0xc0008b98c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:130 +0x34
+created by k8s.io/client-go/tools/cache.(*controller).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:129 +0xa5
+
+goroutine 252 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc00080a380, 0xc0f937061ef7a246, 0x7d76c63a, 0x6136d40, 0x4663948, 0xc000f7a400, 0xc000979b68, 0xc00078d200, 0xc0007394a0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc00080a380, 0xc0007394a0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000e0dec8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000979ec8, 0x46495a0, 0xc000f32c30, 0x1, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc00080a380, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc00005d610, 0xc000c84ab0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 281 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc00080a380, 0xc0007394a0, 0xc000b5ade0, 0xc00078d200)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 255 [select]:
+k8s.io/client-go/tools/cache.(*processorListener).pop(0xc000af8b80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:742 +0x151
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000296840, 0xc000798b20)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 266 [chan receive]:
+k8s.io/client-go/tools/cache.(*processorListener).run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:772 +0x5d
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000b43760)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000e08f60, 0x46495c0, 0xc00080eb10, 0x388e201, 0xc000a3ec60)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/apimachinery/pkg/util/wait.JitterUntil(0xc000b43760, 0x3b9aca00, 0x0, 0x1, 0xc000a3ec60)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:133 +0x98
+k8s.io/apimachinery/pkg/util/wait.Until(...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:90
+k8s.io/client-go/tools/cache.(*processorListener).run(0xc000af8b00)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:771 +0x95
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc0002967d0, 0xc0007993f0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 257 [chan receive]:
+k8s.io/client-go/tools/cache.(*sharedProcessor).run(0xc000296770, 0xc000a3e780)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:628 +0x53
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc00005dbc0, 0xc000c84ba0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 258 [chan receive]:
+k8s.io/client-go/tools/cache.(*controller).Run.func1(0xc0007394a0, 0xc000814240)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:130 +0x34
+created by k8s.io/client-go/tools/cache.(*controller).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:129 +0xa5
+
+goroutine 259 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc00080a460, 0xc0f937061ee01e5e, 0x7d5f41d0, 0x6136d40, 0x4663948, 0xc000f7b500, 0xc00081bb68, 0xc0005f3560, 0xc0007394a0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc00080a460, 0xc0007394a0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc000807ec8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc00081bec8, 0x46495a0, 0xc000f32cd0, 0x1, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc00080a460, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc00005dc40, 0xc000c84bb8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 280 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc00080a460, 0xc0007394a0, 0xc000b5aae0, 0xc0005f3560)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 262 [chan receive]:
+k8s.io/client-go/tools/cache.(*sharedProcessor).run(0xc0002968c0, 0xc000a3e960)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:628 +0x53
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000770d40, 0xc000c84c90)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 263 [chan receive]:
+k8s.io/client-go/tools/cache.(*controller).Run.func1(0xc0007394a0, 0xc000814cf0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:130 +0x34
+created by k8s.io/client-go/tools/cache.(*controller).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:129 +0xa5
+
+goroutine 264 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc00080a620, 0xc0f93706368dec78, 0x950d0f45, 0x6136d40, 0x4663948, 0xc00100ce40, 0xc000975b68, 0xc00100ab40, 0xc0007394a0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc00080a620, 0xc0007394a0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc0010ccec8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc000975ec8, 0x46495a0, 0xc000f32d70, 0x1, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc00080a620, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000771700, 0xc000c84ca8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 314 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc00080a620, 0xc0007394a0, 0xc000a7e4e0, 0xc00100ab40)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 267 [select]:
+k8s.io/client-go/tools/cache.(*processorListener).pop(0xc000af8b00)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:742 +0x151
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc0002967d0, 0xc000799400)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 276 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc000140460, 0xc0001ecde0, 0xc000b5a8a0, 0xc00044dc80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 269 [chan receive]:
+k8s.io/client-go/tools/cache.(*sharedProcessor).run(0xc000296930, 0xc000a3eae0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/shared_informer.go:628 +0x53
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc000771930, 0xc000c84d80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 270 [chan receive]:
+k8s.io/client-go/tools/cache.(*controller).Run.func1(0xc0007394a0, 0xc0008155f0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:130 +0x34
+created by k8s.io/client-go/tools/cache.(*controller).Run
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/controller.go:129 +0xa5
+
+goroutine 271 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).watchHandler(0xc00080a700, 0xc0f93706308ddd38, 0x8f0d0014, 0x6136d40, 0x4663948, 0xc00100cd40, 0xc00136db68, 0xc000180720, 0xc0007394a0, 0x0, ...)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:468 +0x165
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch(0xc00080a700, 0xc0007394a0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:428 +0x738
+k8s.io/client-go/tools/cache.(*Reflector).Run.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:221 +0x38
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil.func1(0xc0010cdec8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:155 +0x5f
+k8s.io/apimachinery/pkg/util/wait.BackoffUntil(0xc00136dec8, 0x46495a0, 0xc000f32eb0, 0x1, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:156 +0x9b
+k8s.io/client-go/tools/cache.(*Reflector).Run(0xc00080a700, 0xc0007394a0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:220 +0x1ed
+k8s.io/apimachinery/pkg/util/wait.(*Group).StartWithChannel.func1()
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:56 +0x2e
+k8s.io/apimachinery/pkg/util/wait.(*Group).Start.func1(0xc0007719e0, 0xc000c84d98)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:73 +0x51
+created by k8s.io/apimachinery/pkg/util/wait.(*Group).Start
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/wait/wait.go:71 +0x65
+
+goroutine 302 [select]:
+k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch.func2(0xc00080a700, 0xc0007394a0, 0xc000a7efc0, 0xc000180720)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:373 +0x125
+created by k8s.io/client-go/tools/cache.(*Reflector).ListAndWatch
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/tools/cache/reflector.go:367 +0x2ed
+
+goroutine 378 [select]:
+net/http.(*persistConn).writeLoop(0xc000c7c360)
+	/usr/local/go/src/net/http/transport.go:2382 +0xf7
+created by net/http.(*Transport).dialConn
+	/usr/local/go/src/net/http/transport.go:1744 +0xc9c
+
+goroutine 313 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc0008c5d20, 0xc000000000)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc0008c5d10)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc0008c5d08, 0xc0005fe400, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc0008c5ce0, 0xc0005fe400, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc000e4edc0, 0x40e8257, 0x7fdf3e46e6c8)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc000e4edc0, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc000e4edc0, 0x39b1200, 0xc00028d0c8, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc0011b8960, 0xc001011400, 0x400, 0x400, 0x40, 0x38, 0x3afec80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc0010999f0, 0x0, 0x46636c8, 0xc00100c900, 0x7, 0xc0007c8e70, 0x2d, 0xc0003496e8, 0x4be6c8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc0011be040, 0xd, 0x0, 0x0, 0x3f9fde8, 0x203000, 0x7)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc00100c8c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 303 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000b25220, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000b25210)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc000b25208, 0xc0005fe600, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc000b251e0, 0xc0005fe600, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc0008c4c60, 0xc0008ff218, 0x7fdf3e46e6c8)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc0008c4c60, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc0008c4c60, 0x39b1200, 0xc00028c4f8, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc000f36990, 0xc0005c7c00, 0x400, 0x400, 0xc000f7a180, 0x40, 0x38)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000f7c050, 0x0, 0x46636c8, 0xc000f7a180, 0x3b62230, 0x46fe3b8, 0xc000349dd0, 0x46dc93, 0x3b621e0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc000f30c60, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc000f7a140)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 310 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000c2a300, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000c2a2f0)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc000c2a2e8, 0xc0005ff000, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc000c2a2c0, 0xc0005ff000, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc0008c5e40, 0x3d144a0, 0x7fdf3e46e6c8)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc0008c5e40, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc0008c5e40, 0x39b1200, 0xc00028d6f8, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc0011b8690, 0xc001180800, 0x400, 0x400, 0xc000f7b4c0, 0x40, 0x38)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000f7c550, 0x0, 0x46636c8, 0xc000f7b4c0, 0x0, 0x0, 0x1, 0x2ae4e9fa2ab3bc3e, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc0011be020, 0x46fe4f8, 0xc00074b350, 0xc0006cb088, 0x366ee80, 0xc0007488b0, 0x46fe4f8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc000f7b480)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 300 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc0004bc460, 0xc000000000)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc0004bc450)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc0004bc448, 0xc0008b7a00, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc0004bc420, 0xc0008b7a00, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc0007d14a0, 0x0, 0x7fdf3e106888)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc0007d14a0, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc0007d14a0, 0x39b1200, 0xc000946c30, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc00021ac30, 0xc0005c6400, 0x400, 0x400, 0x40, 0x38, 0x3afec80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000d8f680, 0x0, 0x46636c8, 0xc000cca540, 0x4662160, 0x0, 0xc0001b1410, 0x2d, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc00093fdc0, 0x6166b18, 0x0, 0x40daca6, 0x3, 0xc00005cb59, 0x7)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc0007d7f80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 279 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000965a60, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000965a50)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc000965a48, 0xc000a94600, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc000965a20, 0xc000a94600, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc000c2a580, 0x0, 0x7fdf3e46de48)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc000c2a580, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc000c2a580, 0x39b1200, 0xc0008a1f08, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc000dbdef0, 0xc0003ebc00, 0x400, 0x400, 0x40, 0x38, 0x3afec80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000859180, 0x0, 0x46636c8, 0xc000a8a200, 0x0, 0x0, 0x0, 0x0, 0xc0006f5de8)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc000b63aa0, 0x43b19c, 0xc0006f5e18, 0x469ba0, 0xc000b35980, 0x4, 0xc0006f5e60)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc000a8a1c0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 315 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc0008c4b40, 0xc000000000)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc0008c4b30)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc0008c4b28, 0xc0005ff200, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc0008c4b00, 0xc0005ff200, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc000e4f8c0, 0xc0008ff218, 0x7fdf3e46e6c8)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc000e4f8c0, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc000e4f8c0, 0x39b1200, 0xc00028d9f8, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc0010b4b40, 0xc001011800, 0x400, 0x400, 0x40, 0x38, 0x3afec80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc001099b80, 0x0, 0x46636c8, 0xc00100cd80, 0x3b62230, 0x46fe3b8, 0xc000349dd0, 0x46dc93, 0x3b621e0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc0011bfa00, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc00100cd40)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 308 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000e4e5c0, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000e4e5b0)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc000e4e5a8, 0xc0005fec00, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc000e4e580, 0xc0005fec00, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc0008c5340, 0x0, 0x7fdf3e46e6c8)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc0008c5340, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc0008c5340, 0x39b1200, 0xc00028c678, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc000f36e10, 0xc001180400, 0x400, 0x400, 0xc000f7a440, 0x40, 0x38)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc000f7c1e0, 0x0, 0x46636c8, 0xc000f7a440, 0x4662160, 0x0, 0xc0001b1410, 0x2d, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc000f30c80, 0x6166b18, 0x0, 0x40daca6, 0x3, 0xc00005cb59, 0x7)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc000f7a400)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 317 [sync.Cond.Wait]:
+sync.runtime_notifyListWait(0xc000e4f7a0, 0x0)
+	/usr/local/go/src/runtime/sema.go:513 +0xf8
+sync.(*Cond).Wait(0xc000e4f790)
+	/usr/local/go/src/sync/cond.go:56 +0x99
+golang.org/x/net/http2.(*pipe).Read(0xc000e4f788, 0xc0005ff400, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/pipe.go:65 +0x97
+golang.org/x/net/http2.transportResponseBody.Read(0xc000e4f760, 0xc0005ff400, 0x200, 0x200, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/golang.org/x/net/http2/transport.go:2110 +0xaf
+encoding/json.(*Decoder).refill(0xc000e4fb80, 0xc0008ff218, 0x7fdf3e46e6c8)
+	/usr/local/go/src/encoding/json/stream.go:165 +0xeb
+encoding/json.(*Decoder).readValue(0xc000e4fb80, 0x0, 0x0, 0x390b5a0)
+	/usr/local/go/src/encoding/json/stream.go:140 +0x1ff
+encoding/json.(*Decoder).Decode(0xc000e4fb80, 0x39b1200, 0xc00028da28, 0x203000, 0x203000)
+	/usr/local/go/src/encoding/json/stream.go:63 +0x7c
+k8s.io/apimachinery/pkg/util/framer.(*jsonFrameReader).Read(0xc0010b4d20, 0xc001011c00, 0x400, 0x400, 0x40, 0x38, 0x3afec80)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/util/framer/framer.go:152 +0x1a8
+k8s.io/apimachinery/pkg/runtime/serializer/streaming.(*decoder).Decode(0xc001099c20, 0x0, 0x46636c8, 0xc00100ce80, 0x3b62230, 0x46fe3b8, 0xc000349dd0, 0x46dc93, 0x3b621e0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/runtime/serializer/streaming/streaming.go:77 +0x89
+k8s.io/client-go/rest/watch.(*Decoder).Decode(0xc0011bfa20, 0x0, 0x0, 0x0, 0x0, 0x0, 0x0)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/client-go/rest/watch/decoder.go:49 +0x6e
+k8s.io/apimachinery/pkg/watch.(*StreamWatcher).receive(0xc00100ce40)
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:105 +0xe5
+created by k8s.io/apimachinery/pkg/watch.NewStreamWatcher
+	/gopath/src/k8s.io/autoscaler/cluster-autoscaler/vendor/k8s.io/apimachinery/pkg/watch/streamwatcher.go:76 +0xea
+
+goroutine 377 [IO wait]:
+internal/poll.runtime_pollWait(0x7fdf3e460938, 0x72, 0xffffffffffffffff)
+	/usr/local/go/src/runtime/netpoll.go:222 +0x55
+internal/poll.(*pollDesc).wait(0xc000c36598, 0x72, 0x1800, 0x18be, 0xffffffffffffffff)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:87 +0x45
+internal/poll.(*pollDesc).waitRead(...)
+	/usr/local/go/src/internal/poll/fd_poll_runtime.go:92
+internal/poll.(*FD).Read(0xc000c36580, 0xc00293a000, 0x18be, 0x18be, 0x0, 0x0, 0x0)
+	/usr/local/go/src/internal/poll/fd_unix.go:166 +0x1d5
+net.(*netFD).Read(0xc000c36580, 0xc00293a000, 0x18be, 0x18be, 0x18b1, 0xc0013f96a0, 0xd)
+	/usr/local/go/src/net/fd_posix.go:55 +0x4f
+net.(*conn).Read(0xc002910138, 0xc00293a000, 0x18be, 0x18be, 0x0, 0x0, 0x0)
+	/usr/local/go/src/net/net.go:183 +0x91
+crypto/tls.(*atLeastReader).Read(0xc00110e1c8, 0xc00293a000, 0x18be, 0x18be, 0xc0008029f8, 0xc000070800, 0x0)
+	/usr/local/go/src/crypto/tls/conn.go:776 +0x63
+bytes.(*Buffer).ReadFrom(0xc0013f9778, 0x4646440, 0xc00110e1c8, 0x40b8a5, 0x39eba40, 0x3fdf300)
+	/usr/local/go/src/bytes/buffer.go:204 +0xbe
+crypto/tls.(*Conn).readFromUntil(0xc0013f9500, 0x464ad80, 0xc002910138, 0x5, 0xc002910138, 0x203000)
+	/usr/local/go/src/crypto/tls/conn.go:798 +0xf3
+crypto/tls.(*Conn).readRecordOrCCS(0xc0013f9500, 0x0, 0x0, 0x43b19c)
+	/usr/local/go/src/crypto/tls/conn.go:605 +0x115
+crypto/tls.(*Conn).readRecord(...)
+	/usr/local/go/src/crypto/tls/conn.go:573
+crypto/tls.(*Conn).Read(0xc0013f9500, 0xc00295e000, 0x1000, 0x1000, 0x0, 0x0, 0x0)
+	/usr/local/go/src/crypto/tls/conn.go:1276 +0x165
+net/http.(*persistConn).Read(0xc000c7c360, 0xc00295e000, 0x1000, 0x1000, 0xc000f6d260, 0xc000802d40, 0x405755)
+	/usr/local/go/src/net/http/transport.go:1922 +0x77
+bufio.(*Reader).fill(0xc002909da0)
+	/usr/local/go/src/bufio/bufio.go:101 +0x108
+bufio.(*Reader).Peek(0xc002909da0, 0x1, 0x0, 0x1, 0x4, 0x1, 0x3)
+	/usr/local/go/src/bufio/bufio.go:139 +0x4f
+net/http.(*persistConn).readLoop(0xc000c7c360)
+	/usr/local/go/src/net/http/transport.go:2083 +0x1a8
+created by net/http.(*Transport).dialConn
+	/usr/local/go/src/net/http/transport.go:1743 +0xc77
