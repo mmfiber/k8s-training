@@ -1,4 +1,7 @@
 # k8s-training
+k8s 勉強用レポジトリ
+
+# 学習メモ
 
 https://kops.sigs.k8s.io/
 https://kubernetes.io/ja/docs/setup/production-environment/tools/kops/
