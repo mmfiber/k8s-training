@@ -2,7 +2,7 @@ import { NextFunction, Request, Response, Router } from "express";
 import { RouteInitializer, VIEWS_ROOT_DIR } from "./model";
 
 const ROUTE_PREFIX = "/hello"
-const VIEWS_DIR = `${VIEWS_ROOT_DIR}/${ROUTE_PREFIX.slice(1)}`
+const VIEWS_DIR = VIEWS_ROOT_DIR + ROUTE_PREFIX
 
 export class HelloRouteInitializer implements RouteInitializer {
   initialize(router: Router) {
