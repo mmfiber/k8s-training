@@ -173,3 +173,27 @@ caused by: EC2MetadataError: failed to make EC2Metadata request
 [IMDSv2 の hop limit の設定が必要](https://docs.aws.amazon.com/ja_jp/AWSEC2/latest/UserGuide/instancedata-data-retrieval.html)だった
 https://dev.classmethod.jp/articles/ec2-imdsv2-release/
 [minimal](https://github.com/kubernetes/autoscaler/blob/master/cluster-autoscaler/cloudprovider/aws/README.md#common-notes-and-gotchas) + "autoscaling:DescribeTags" を追加
+
+pdb
+graceful shutdown
+アプリケーション性能
+* このアプリケーションの単体性能は
+  * rps
+  * cpu
+  * memory
+* service トポロジーによる通信経路の最適化
+* container に resouce を設定しているか
+* readinessProbe を設定して container が常に受け入れ可能になっているか
+
+
+可観測性
+prometheus
+https://prometheus.io/docs/introduction/overview/
+インストール
+* 手動でmanifest書く
+* manifiest を[ここ](https://github.com/prometheus-operator/prometheus-operator)から取ってきて手動で管理
+* helm
+  * grafana とかも入れてくれる
+  * https://github.com/prometheus-community/helm-charts/tree/main/charts/kube-prometheus-stack
+  * resouce から全体感を把握する
+  
